@@ -1,0 +1,1595 @@
+﻿Log file open, 02/28/19 20:12:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: WoldAssault
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.324764
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.334s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Pentium(R) CPU G4600 @ 3.60GHz, GPU: NVIDIA GeForce GTX 1050
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Program Files/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.013s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.28-19.12.46:720][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.28-19.12.46:720][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.28-19.12.46:798][  0]LogHAL: Display: Platform has ~ 8 GB [8523456512 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.28-19.12.46:798][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.28-19.12.46:798][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.28-19.12.46:820][  0]LogInit: Computer: DESKTOP-B5RE4LC
+[2019.02.28-19.12.46:820][  0]LogInit: User: Wess9
+[2019.02.28-19.12.46:820][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.02.28-19.12.46:820][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.28-19.12.46:820][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.02.28-19.12.46:821][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.28-19.12.46:821][  0]LogMemory: Process Physical Memory: 101.06 MB used, 101.07 MB peak
+[2019.02.28-19.12.46:821][  0]LogMemory: Process Virtual Memory: 92.13 MB used, 92.13 MB peak
+[2019.02.28-19.12.46:821][  0]LogMemory: Physical Memory: 5372.63 MB used,  2755.98 MB free, 8128.60 MB total
+[2019.02.28-19.12.46:821][  0]LogMemory: Virtual Memory: 4612.79 MB used,  2755.98 MB free, 134217728.00 MB total
+[2019.02.28-19.12.47:023][  0]LogInit: Using OS detected language (fr-FR).
+[2019.02.28-19.12.47:023][  0]LogInit: Using OS detected locale (fr-FR).
+[2019.02.28-19.12.47:034][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2019.02.28-19.12.47:110][  0]LogStreaming: Display: Took  0.087s to InitEngineTextLocalization.
+[2019.02.28-19.12.47:110][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.28-19.12.47:363][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.28-19.12.47:363][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.28-19.12.50:253][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.28-19.12.50:265][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.28-19.12.50:470][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.02.28-19.12.50:470][  0]LogD3D11RHI:       1977/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.28-19.12.50:478][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.28-19.12.50:478][  0]LogD3D11RHI:       0/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.28-19.12.50:478][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.28-19.12.50:489][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.28-19.12.50:489][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.28-19.12.50:489][  0]LogWindows: EnumDisplayDevices:
+[2019.02.28-19.12.50:490][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2019.02.28-19.12.50:491][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.02.28-19.12.50:491][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.02.28-19.12.50:492][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.02.28-19.12.50:492][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.28-19.12.50:492][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.02.28-19.12.50:492][  0]LogD3D11RHI:   Driver Version: 417.71 (internal:25.21.14.1771, unified:417.71)
+[2019.02.28-19.12.50:492][  0]LogD3D11RHI:      Driver Date: 1-11-2019
+[2019.02.28-19.12.50:493][  0]LogRHI: Texture pool is 1384 MB (70% of 1977 MB)
+[2019.02.28-19.12.50:575][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.28-19.12.50:665][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.28-19.12.50:741][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Intermediate/Shaders/WorkingDirectory/3760/).
+[2019.02.28-19.12.50:742][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Wess9/AppData/Local/Temp/UnrealShaderWorkingDir/6C1CDCF34539CADFC500D0AECB2E9D92/'.
+[2019.02.28-19.12.52:473][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.28-19.12.52:511][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.28-19.12.52:558][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.28-19.12.52:606][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.28-19.12.52:655][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.28-19.12.52:695][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.28-19.12.52:736][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.28-19.12.52:778][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.28-19.12.52:805][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.28-19.12.53:023][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:023][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:023][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:023][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:023][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:023][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:023][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:023][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:023][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:023][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:023][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:023][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:024][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:024][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:024][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:024][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:024][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:024][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-19.12.53:033][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.28-19.12.53:194][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.28-19.12.53:194][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.28-19.12.53:274][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.28-19.12.53:274][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.28-19.12.53:314][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.28-19.12.53:350][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.28-19.12.53:388][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.28-19.12.53:436][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.28-19.12.53:466][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.28-19.12.53:466][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.28-19.12.54:002][  0]LogXGEController: Cleaning working directory: C:/Users/Wess9/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.28-19.12.54:003][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.28-19.12.54:003][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.28-19.12.54:003][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.28-19.12.57:132][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.28-19.12.57:738][  0]LogDerivedDataCache: Loaded boot cache 0.61s 71MB C:/Users/Wess9/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.28-19.12.57:739][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Wess9/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.28-19.12.57:739][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.28-19.12.57:739][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.28-19.12.57:739][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.28-19.12.57:739][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.28-19.12.57:811][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.28-19.12.57:836][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Wess9/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.28-19.12.57:836][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.28-19.12.57:836][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.28-19.12.57:875][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.28-19.12.57:879][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.28-19.12.57:898][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.28-19.12.58:446][  0]LogAssetRegistry: FAssetRegistry took 0.0366 seconds to start up
+[2019.02.28-19.12.59:352][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.28-19.12.59:861][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.28-19.12.59:935][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.28-19.12.59:935][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.28-19.12.59:935][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.28-19.12.59:935][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.28-19.12.59:981][  0]LogNetVersion: WoldAssault 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3604439811)
+[2019.02.28-19.13.01:348][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.182901 seconds
+[2019.02.28-19.13.01:359][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.28-19.13.01:359][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.02.28-19.13.01:359][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.28-19.13.18:211][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.28-19.13.18:246][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.28-19.13.19:020][  0]SourceControl: Source control is disabled
+[2019.02.28-19.13.19:021][  0]LogWindows: Warning: CreateProc failed: Le fichier spécifié est introuvable. (0x00000002)
+[2019.02.28-19.13.19:021][  0]LogWindows: Warning: URL: D:/Git/bin/git.exe version
+[2019.02.28-19.13.19:052][  0]LogWindows: Warning: CreateProc failed: Le fichier spécifié est introuvable. (0x00000002)
+[2019.02.28-19.13.19:052][  0]LogWindows: Warning: URL: D:/Git/bin/git.exe version
+[2019.02.28-19.13.19:070][  0]LogWindows: Warning: CreateProc failed: Le fichier spécifié est introuvable. (0x00000002)
+[2019.02.28-19.13.19:070][  0]LogWindows: Warning: URL: D:/Git/bin/git.exe version
+[2019.02.28-19.13.19:944][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.28-19.13.20:196][  0]LogOcInput: OculusInput pre-init called
+[2019.02.28-19.13.20:413][  0]LogEngine: Initializing Engine...
+[2019.02.28-19.13.20:415][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.28-19.13.20:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.28-19.13.20:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.28-19.13.20:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.28-19.13.20:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.28-19.13.20:747][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.28-19.13.20:827][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.28-19.13.20:893][  0]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.13.20:931][  0]LogInit: FAudioDevice initialized.
+[2019.02.28-19.13.20:931][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.28-19.13.21:093][  0]LogDerivedDataCache: Saved boot cache 0.16s 71MB C:/Users/Wess9/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.28-19.13.21:093][  0]LogInit: Texture streaming: Enabled
+[2019.02.28-19.13.21:209][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.28-19.13.21:280][  0]LogInit: Transaction tracking system initialized
+[2019.02.28-19.13.21:461][  0]BlueprintLog: New page: Editor Load
+[2019.02.28-19.13.22:045][  0]LocalizationService: Localization service is disabled
+[2019.02.28-19.13.23:179][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.28-19.13.23:179][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.28-19.13.23:179][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.28-19.13.23:179][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.28-19.13.23:179][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.28-19.13.23:179][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.28-19.13.23:179][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.28-19.13.23:396][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Wess9/Documents/GitHub/WoldAssault/Content/' took 0.06s
+[2019.02.28-19.13.25:223][  0]LogWindows: Warning: CreateProc failed: Le fichier spécifié est introuvable. (0x00000002)
+[2019.02.28-19.13.25:223][  0]LogWindows: Warning: URL: D:/Git/bin/git.exe version
+[2019.02.28-19.13.25:223][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.28-19.13.25:224][  0]LightingResults: New page: Lighting Build
+[2019.02.28-19.13.25:227][  0]MapCheck: New page: Map Check
+[2019.02.28-19.13.25:227][  0]LightingResults: New page: Lighting Build
+[2019.02.28-19.13.25:620][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.02.28-19.13.25:630][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.28-19.13.25:660][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.28-19.13.25:786][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 126,559ms to complete.
+[2019.02.28-19.13.25:786][  0]LogFileHelpers: Loading map 'Template_Default' took 0.563
+[2019.02.28-19.13.25:957][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.13.25:978][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.13.25:995][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.13.26:014][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.13.26:033][  0]LogCollectionManager: Loaded 0 collections in 0.005105 seconds
+[2019.02.28-19.13.26:097][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Wess9/Documents/GitHub/WoldAssault/Saved/Collections/' took 0.02s
+[2019.02.28-19.13.26:097][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Wess9/Documents/GitHub/WoldAssault/Content/Developers/Wess9/Collections/' took 0.02s
+[2019.02.28-19.13.26:098][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Wess9/Documents/GitHub/WoldAssault/Content/Collections/' took 0.01s
+[2019.02.28-19.13.26:098][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.28-19.13.26:112][  0]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 2572 classes and 603 folders.
+[2019.02.28-19.13.26:128][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.28-19.13.26:283][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.02.28-19.13.26:298][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.02.28-19.13.28:188][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.02.28-19.13.28:289][  0]LogSlate: Took 0.034559 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.28-19.13.28:292][  0]LogSlate: Took 0.000395 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.28-19.13.28:301][  0]LogSlate: Took 0.000372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.28-19.13.28:493][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.02.28-19.13.28:745][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.WoldAssault
+[2019.02.28-19.13.28:745][  0]LogTemp: CWD: D:\Program Files\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.02.28-19.13.28:745][  0]LogTemp: Initial Dir: D:\Program Files\UE_4.20
+[2019.02.28-19.13.28:745][  0]LogTemp: Env CWD: D:\Program Files\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.02.28-19.13.28:745][  0]LogTemp: BranchPath = DESKTOP-B5RE4LC/D/Program Files/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-B5RE4LC/D/Program Files/UE_4.20/Engine/Binaries
+[2019.02.28-19.13.28:745][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Wess9\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.02.28-19.13.28:771][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.28-19.13.28:772][  0]LogLoad: (Engine Initialization) Total time: 66.06 seconds
+[2019.02.28-19.13.28:772][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.28-19.13.28:868][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.28-19.13.29:249][  1]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.28-19.13.29:517][  6]LogAssetRegistry: Asset discovery search completed in 31.0994 seconds
+[2019.02.28-19.13.29:520][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.02.28-19.13.29:520][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000098 seconds (updated 0 objects)
+[2019.02.28-19.15.05:035][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.15.27:771][482]LogSlate: Window 'Project Settings' being destroyed
+[2019.02.28-19.15.27:783][482]LogSlate: Window 'Project Settings' being destroyed
+[2019.02.28-19.15.28:911][564]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.15.39:922][ 30]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.28-19.15.39:935][ 30]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Characters/Chara/BpLuck.BpLuck
+[2019.02.28-19.15.40:680][ 30]LogClass: Warning: Enum '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2019.02.28-19.15.40:689][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:689][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:689][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:689][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:689][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:689][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:689][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:689][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:689][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:689][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:689][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:694][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-19.15.40:694][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-19.15.40:694][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-19.15.40:694][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-19.15.40:694][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-19.15.40:694][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-19.15.40:694][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-19.15.40:698][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:698][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:698][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:698][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:699][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:699][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:699][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:699][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:699][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:699][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:699][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-19.15.40:702][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-19.15.40:702][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-19.15.40:702][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-19.15.40:702][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-19.15.40:702][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-19.15.40:702][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-19.15.40:702][ 30]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-19.15.40:744][ 30]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2019.02.28-19.15.41:851][ 30]LogSlate: Took 0.000382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.28-19.15.42:104][ 31]LogSlate: Took 0.009192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.28-19.15.47:514][338]LogSlate: Window 'BpLuck' being destroyed
+[2019.02.28-19.15.47:524][338]LogSlate: Window 'BpLuck' being destroyed
+[2019.02.28-19.15.55:112][684]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.15.57:402][777]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.15.57:412][777]LogAssetEditorManager: Opening Asset editor for World /Game/Lv1.Lv1
+[2019.02.28-19.15.57:457][777]Cmd: MAP LOAD FILE="../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/Lv1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.28-19.15.57:457][777]LightingResults: New page: Lighting Build
+[2019.02.28-19.15.57:458][777]LoadErrors: New page: Loading map: Lv1.umap
+[2019.02.28-19.15.57:458][777]MapCheck: New page: Map Check
+[2019.02.28-19.15.57:458][777]LightingResults: New page: Lighting Build
+[2019.02.28-19.15.57:535][777]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.28-19.15.57:597][777]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.28-19.15.57:820][777]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 222,972ms to complete.
+[2019.02.28-19.15.57:822][777]LogFileHelpers: Loading map 'Lv1' took 0.366
+[2019.02.28-19.16.04:050][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.16.04:112][998]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.16.04:140][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-19.16.04:154][998]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:16:04)
+[2019.02.28-19.16.04:155][998]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.16.04:181][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025666s)
+[2019.02.28-19.16.04:182][998]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.16.04:183][998]LogPlayLevel: PIE: World Init took: (0.001585s)
+[2019.02.28-19.16.04:183][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.027714s)
+[2019.02.28-19.16.04:268][998]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.16.04:294][998]LogInit: FAudioDevice initialized.
+[2019.02.28-19.16.04:364][998]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.16.04:371][998]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.16.04
+[2019.02.28-19.16.04:371][998]LogWorld: Bringing up level for play took: 0.005759
+[2019.02.28-19.16.04:396][998]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.02.28-19.16.04:396][998]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.16.04:396][998]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.16.04:396][998]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.16.04:413][998]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.16.04:413][998]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 0,514
+[2019.02.28-19.16.05:297][ 59]Set new viewmode: Unlit
+[2019.02.28-19.16.06:149][134]Set new viewmode: Unlit
+[2019.02.28-19.16.06:550][171]Set new viewmode: Unlit
+[2019.02.28-19.16.06:720][187]Set new viewmode: Unlit
+[2019.02.28-19.16.08:445][344]Set new viewmode: Unlit
+[2019.02.28-19.16.08:634][363]Set new viewmode: Unlit
+[2019.02.28-19.16.08:791][373]Set new viewmode: Wireframe
+[2019.02.28-19.16.09:327][418]Set new viewmode: Wireframe
+[2019.02.28-19.16.09:697][450]Set new viewmode: Lit
+[2019.02.28-19.16.11:787][625]Set new viewmode: Wireframe
+[2019.02.28-19.16.12:121][651]Set new viewmode: Unlit
+[2019.02.28-19.16.12:337][671]Set new viewmode: Lit
+[2019.02.28-19.16.12:528][688]Set new viewmode: Unlit
+[2019.02.28-19.16.12:713][703]Set new viewmode: Wireframe
+[2019.02.28-19.16.12:816][713]Set new viewmode: Unlit
+[2019.02.28-19.16.12:978][728]Set new viewmode: Lit
+[2019.02.28-19.16.13:132][742]Set new viewmode: Unlit
+[2019.02.28-19.16.13:226][750]Set new viewmode: Wireframe
+[2019.02.28-19.16.13:640][790]Set new viewmode: Lit
+[2019.02.28-19.16.38:072][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.16.38:118][828]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.16.38:196][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.16.38:250][829]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.02.28-19.18.24:052][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.18.24:124][158]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.18.24:154][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-19.18.24:154][158]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:18:24)
+[2019.02.28-19.18.24:154][158]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.18.24:171][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016781s)
+[2019.02.28-19.18.24:172][158]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.18.24:173][158]LogPlayLevel: PIE: World Init took: (0.001415s)
+[2019.02.28-19.18.24:173][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.018437s)
+[2019.02.28-19.18.24:275][158]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.18.24:324][158]LogInit: FAudioDevice initialized.
+[2019.02.28-19.18.24:361][158]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.18.24:367][158]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.18.24
+[2019.02.28-19.18.24:368][158]LogWorld: Bringing up level for play took: 0.005409
+[2019.02.28-19.18.24:381][158]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.18.24:381][158]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.18.24:381][158]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.18.24:384][158]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.18.24:384][158]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 0,485
+[2019.02.28-19.18.25:426][237]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.18.25:471][237]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.18.25:519][237]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.18.25:560][238]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.02.28-19.18.36:347][  5]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2019.02.28-19.18.37:634][ 82]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.02.28-19.18.38:588][150]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2019.02.28-19.18.42:041][377]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.18.42:110][384]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.18.42:137][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-19.18.42:137][384]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:18:42)
+[2019.02.28-19.18.42:137][384]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.18.42:154][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016465s)
+[2019.02.28-19.18.42:155][384]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.18.42:155][384]LogPlayLevel: PIE: World Init took: (0.001251s)
+[2019.02.28-19.18.42:155][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.017932s)
+[2019.02.28-19.18.42:233][384]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.18.42:260][384]LogInit: FAudioDevice initialized.
+[2019.02.28-19.18.42:293][384]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.18.42:296][384]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.18.42
+[2019.02.28-19.18.42:296][384]LogWorld: Bringing up level for play took: 0.002947
+[2019.02.28-19.18.42:310][384]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.18.42:310][384]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.18.42:310][384]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.18.42:312][384]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.18.42:312][384]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 0,412
+[2019.02.28-19.18.48:138][850]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.18.48:181][850]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.18.48:225][850]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.18.48:263][851]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.02.28-19.19.10:196][543]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.19.11:991][674]LogActorFactory: Actor Factory created Cube
+[2019.02.28-19.19.13:820][783]LogActorFactory: Actor Factory created Cube
+[2019.02.28-19.19.34:740][329]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.19.37:893][490]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.19.46:628][ 50]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.02.28-19.19.51:047][380]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.02.28-19.19.51:787][429]Cmd: DELETE
+[2019.02.28-19.19.51:787][429]Cmd: ACTOR DELETE
+[2019.02.28-19.19.52:043][429]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.28-19.19.52:078][429]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2019.02.28-19.20.13:608][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.20.14:980][127]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.02.28-19.20.20:086][500]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.20.59:565][573]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor1)
+[2019.02.28-19.21.00:540][659]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Treestump_Var3)
+[2019.02.28-19.21.02:270][764]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.21.10:246][409]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Treestump_Var3)
+[2019.02.28-19.21.15:343][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.21.17:945][953]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.02.28-19.21.30:523][  4]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.02.28-19.21.31:058][ 42]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.02.28-19.21.33:542][206]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.21.34:583][256]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.21.34:588][256]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Lv1.Lv1:PersistentLevel.Lv1
+[2019.02.28-19.21.44:534][699]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.21.51:559][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.22.03:537][344]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.22.22:941][511]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.02.28-19.22.26:165][760]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Wolf1.Wolf1
+[2019.02.28-19.22.26:855][761]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2019.02.28-19.22.44:210][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.22.54:010][ 17]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.28-19.23.00:747][346]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.02.28-19.23.02:081][419]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.23.13:241][946]BlueprintLog: New page: Compile Lv1
+[2019.02.28-19.23.16:201][129]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.23.16:242][129]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.23.16:242][129]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.02.28-19.23.16:248][129]LogPlayLevel: [PlayLevel] Compiling Wolf1 before play...
+[2019.02.28-19.23.16:697][129]LogPlayLevel: PlayLevel: Blueprint regeneration took 455 ms (1 blueprints)
+[2019.02.28-19.23.16:697][129]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:23:16)
+[2019.02.28-19.23.16:698][129]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.23.16:725][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027573s)
+[2019.02.28-19.23.16:726][129]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.23.16:727][129]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2019.02.28-19.23.16:727][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.028921s)
+[2019.02.28-19.23.16:804][129]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.23.16:826][129]LogInit: FAudioDevice initialized.
+[2019.02.28-19.23.16:860][129]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.23.16:865][129]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.23.16
+[2019.02.28-19.23.16:865][129]LogWorld: Bringing up level for play took: 0.004108
+[2019.02.28-19.23.16:878][129]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.23.16:878][129]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.23.16:878][129]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.23.16:895][129]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.23.16:895][129]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 0,996
+[2019.02.28-19.23.16:904][129]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.23.18:449][253]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.23.18:479][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.23.18:522][253]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.23.18:522][253]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.23.18:571][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.23.18:627][254]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.02.28-19.23.19:687][331]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.23.20:291][362]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.24.00:847][379]BlueprintLog: New page: Compile Lv1
+[2019.02.28-19.24.04:487][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.24.04:561][612]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.24.04:594][612]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.24.04:594][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-19.24.04:594][612]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:24:04)
+[2019.02.28-19.24.04:595][612]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.24.04:616][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021499s)
+[2019.02.28-19.24.04:617][612]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.24.04:618][612]LogPlayLevel: PIE: World Init took: (0.001299s)
+[2019.02.28-19.24.04:618][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.023029s)
+[2019.02.28-19.24.04:748][612]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.24.04:764][612]LogInit: FAudioDevice initialized.
+[2019.02.28-19.24.04:802][612]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.24.04:807][612]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.24.04
+[2019.02.28-19.24.04:808][612]LogWorld: Bringing up level for play took: 0.005783
+[2019.02.28-19.24.04:821][612]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.24.04:821][612]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.24.04:821][612]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.24.05:755][612]LogScript: Warning: Runaway loop detected (over 1 000 000 iterations) - see log for stack trace
+	Lv1_C /Game/UEDPIE_0_Lv1.Lv1:PersistentLevel.Lv1_C_1
+	Function /Game/Lv1.Lv1_C:ExecuteUbergraph_Lv1:017B
+[2019.02.28-19.24.05:756][612]PIE: Error: Infinite loop detected. Blueprint:  Lv1 Function:  Sequence Call Stack:  Show
+[2019.02.28-19.24.05:756][612]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.24.05:756][612]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 1,857
+[2019.02.28-19.24.05:756][612]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.24.05:760][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.24.05:760][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.24.05:825][612]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.24.05:826][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.24.05:870][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.24.05:930][613]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor1)
+[2019.02.28-19.24.06:116][613]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.24.06:125][613]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.02.28-19.24.08:393][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.24.08:761][786]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.24.08:792][786]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.24.08:792][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-19.24.08:792][786]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:24:08)
+[2019.02.28-19.24.08:792][786]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.24.08:813][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020901s)
+[2019.02.28-19.24.08:814][786]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.24.08:815][786]LogPlayLevel: PIE: World Init took: (0.001302s)
+[2019.02.28-19.24.08:815][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.022429s)
+[2019.02.28-19.24.08:896][786]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.24.08:918][786]LogInit: FAudioDevice initialized.
+[2019.02.28-19.24.08:955][786]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.24.08:960][786]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.24.08
+[2019.02.28-19.24.08:961][786]LogWorld: Bringing up level for play took: 0.005301
+[2019.02.28-19.24.08:974][786]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.24.08:974][786]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.24.08:974][786]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.24.09:868][786]LogScript: Warning: Runaway loop detected (over 1 000 000 iterations) - see log for stack trace
+	Lv1_C /Game/UEDPIE_0_Lv1.Lv1:PersistentLevel.Lv1_C_1
+	Function /Game/Lv1.Lv1_C:ExecuteUbergraph_Lv1:017B
+[2019.02.28-19.24.09:868][786]PIE: Error: Infinite loop detected. Blueprint:  Lv1 Function:  Sequence Call Stack:  Show
+[2019.02.28-19.24.09:868][786]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.24.09:868][786]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 1,969
+[2019.02.28-19.24.09:868][786]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.24.09:871][786]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.24.09:871][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.24.09:934][786]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.24.09:934][786]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.24.10:024][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.24.10:102][787]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.02.28-19.24.12:848][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.24.15:891][ 81]LogAssetEditorManager: Opening Asset editor for Blueprint /Engine/EditorBlueprintResources/StandardMacros.StandardMacros
+[2019.02.28-19.24.26:157][543]BlueprintLog: New page: Compile Lv1
+[2019.02.28-19.24.28:361][668]LogSlate: Window 'Message Log' being destroyed
+[2019.02.28-19.24.28:381][668]LogSlate: Window 'Message Log' being destroyed
+[2019.02.28-19.24.28:793][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.24.28:836][702]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.24.28:873][702]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.24.28:873][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-19.24.28:873][702]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:24:28)
+[2019.02.28-19.24.28:874][702]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.24.28:889][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014751s)
+[2019.02.28-19.24.28:890][702]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.24.28:890][702]LogPlayLevel: PIE: World Init took: (0.001171s)
+[2019.02.28-19.24.28:890][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.016138s)
+[2019.02.28-19.24.28:979][702]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.24.29:002][702]LogInit: FAudioDevice initialized.
+[2019.02.28-19.24.29:037][702]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.24.29:042][702]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.24.29
+[2019.02.28-19.24.29:043][702]LogWorld: Bringing up level for play took: 0.005131
+[2019.02.28-19.24.29:056][702]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.24.29:056][702]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.24.29:056][702]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.24.29:059][702]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.24.29:059][702]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 1,16
+[2019.02.28-19.24.29:060][702]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.24.32:716][ 17]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.24.32:716][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.24.32:763][ 17]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.24.32:763][ 17]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.24.32:812][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.24.32:846][ 18]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.02.28-19.24.33:442][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.24.34:502][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.24.52:423][178]LogSlate: Took 0.019182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.02.28-19.24.56:201][371]BlueprintLog: New page: Compile Lv1
+[2019.02.28-19.25.00:988][598]BlueprintLog: New page: Compile Lv1
+[2019.02.28-19.25.02:457][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.25.02:532][687]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.25.02:564][687]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.25.02:565][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-19.25.02:565][687]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:25:02)
+[2019.02.28-19.25.02:565][687]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.25.02:583][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018389s)
+[2019.02.28-19.25.02:584][687]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.25.02:584][687]LogPlayLevel: PIE: World Init took: (0.001046s)
+[2019.02.28-19.25.02:585][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.019685s)
+[2019.02.28-19.25.02:673][687]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.25.02:694][687]LogInit: FAudioDevice initialized.
+[2019.02.28-19.25.02:729][687]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.25.02:733][687]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.25.02
+[2019.02.28-19.25.02:734][687]LogWorld: Bringing up level for play took: 0.004465
+[2019.02.28-19.25.02:747][687]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.25.02:747][687]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.25.02:747][687]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.25.03:675][687]LogScript: Warning: Runaway loop detected (over 1 000 000 iterations) - see log for stack trace
+	Lv1_C /Game/UEDPIE_0_Lv1.Lv1:PersistentLevel.Lv1_C_4
+	Function /Game/Lv1.Lv1_C:ExecuteUbergraph_Lv1:0182
+[2019.02.28-19.25.03:675][687]PIE: Error: Infinite loop detected. Blueprint:  Lv1 Function:  Sequence Call Stack:  Show
+[2019.02.28-19.25.03:675][687]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.25.03:675][687]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 1,776
+[2019.02.28-19.25.03:675][687]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.25.03:678][687]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.25.03:679][687]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.25.03:738][687]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.25.03:739][687]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.25.03:779][687]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.25.03:821][688]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.02.28-19.25.10:689][ 88]LogSlate: Window 'Message Log' being destroyed
+[2019.02.28-19.25.10:719][ 88]LogSlate: Window 'Message Log' being destroyed
+[2019.02.28-19.25.11:164][114]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.25.11:677][132]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.25.21:124][586]BlueprintLog: New page: Compile Lv1
+[2019.02.28-19.25.22:949][700]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.25.23:014][705]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.25.23:049][705]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.25.23:049][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-19.25.23:049][705]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:25:23)
+[2019.02.28-19.25.23:049][705]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.25.23:061][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012292s)
+[2019.02.28-19.25.23:062][705]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.25.23:062][705]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2019.02.28-19.25.23:063][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.013530s)
+[2019.02.28-19.25.23:156][705]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.25.23:177][705]LogInit: FAudioDevice initialized.
+[2019.02.28-19.25.23:215][705]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.25.23:219][705]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.25.23
+[2019.02.28-19.25.23:220][705]LogWorld: Bringing up level for play took: 0.004341
+[2019.02.28-19.25.23:233][705]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.25.23:234][705]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.25.23:234][705]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.25.23:237][705]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.25.23:237][705]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 -0,663
+[2019.02.28-19.25.23:237][705]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.25.30:640][353]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.25.30:640][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.25.30:685][353]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.25.30:686][353]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.25.30:755][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.25.30:787][354]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.02.28-19.25.35:608][716]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.25.36:268][756]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.25.47:120][321]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.26.32:368][666]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.26.32:859][687]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.27.13:684][752]BlueprintLog: New page: Compile Lv1
+[2019.02.28-19.27.18:827][ 82]Cmd: DELETE
+[2019.02.28-19.27.18:828][ 82]Cmd: ACTOR DELETE
+[2019.02.28-19.27.18:872][ 82]LogEditorActor: Deleted Actor: Brush
+[2019.02.28-19.27.18:922][ 82]LogEditorActor: Deleted 1 Actors (0.093 secs)
+[2019.02.28-19.27.19:755][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.27.19:809][160]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.27.19:847][160]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.27.19:847][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-19.27.19:848][160]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:27:19)
+[2019.02.28-19.27.19:848][160]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.27.19:869][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021020s)
+[2019.02.28-19.27.19:870][160]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.27.19:870][160]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2019.02.28-19.27.19:870][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.022313s)
+[2019.02.28-19.27.19:962][160]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.27.19:984][160]LogInit: FAudioDevice initialized.
+[2019.02.28-19.27.20:018][160]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.27.20:023][160]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.27.20
+[2019.02.28-19.27.20:023][160]LogWorld: Bringing up level for play took: 0.005019
+[2019.02.28-19.27.20:036][160]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.27.20:036][160]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.27.20:036][160]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.27.20:039][160]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.27.20:039][160]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 0,14
+[2019.02.28-19.27.20:039][160]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.27.24:608][541]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.27.24:608][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.27.24:655][541]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.27.24:656][541]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.27.24:698][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.27.24:724][542]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.02.28-19.27.26:167][664]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.27.26:997][712]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.27.30:830][950]BlueprintLog: New page: Compile Lv1
+[2019.02.28-19.27.32:237][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.27.32:324][ 44]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.27.32:359][ 44]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.27.32:359][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-19.27.32:359][ 44]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:27:32)
+[2019.02.28-19.27.32:360][ 44]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.27.32:377][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016841s)
+[2019.02.28-19.27.32:377][ 44]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.27.32:378][ 44]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2019.02.28-19.27.32:378][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.018135s)
+[2019.02.28-19.27.32:464][ 44]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.27.32:479][ 44]LogInit: FAudioDevice initialized.
+[2019.02.28-19.27.32:519][ 44]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.27.32:525][ 44]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.27.32
+[2019.02.28-19.27.32:526][ 44]LogWorld: Bringing up level for play took: 0.005950
+[2019.02.28-19.27.32:539][ 44]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.27.32:539][ 44]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.27.32:539][ 44]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.27.32:541][ 44]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.27.32:541][ 44]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 0,642
+[2019.02.28-19.27.32:541][ 44]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.27.40:139][674]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.27.40:140][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.27.40:190][674]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.27.40:190][674]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.27.40:247][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.27.40:292][675]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.02.28-19.27.41:084][729]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.27.41:631][763]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.27.44:732][928]BlueprintLog: New page: Compile Lv1
+[2019.02.28-19.27.45:400][947]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.27.45:434][947]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.27.45:434][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-19.27.45:435][947]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:27:45)
+[2019.02.28-19.27.45:435][947]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.27.45:451][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016792s)
+[2019.02.28-19.27.45:453][947]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.27.45:453][947]LogPlayLevel: PIE: World Init took: (0.001423s)
+[2019.02.28-19.27.45:453][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.018441s)
+[2019.02.28-19.27.45:541][947]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.27.45:563][947]LogInit: FAudioDevice initialized.
+[2019.02.28-19.27.45:601][947]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.27.45:604][947]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.27.45
+[2019.02.28-19.27.45:605][947]LogWorld: Bringing up level for play took: 0.003590
+[2019.02.28-19.27.45:618][947]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.27.45:618][947]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.27.45:618][947]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.27.45:620][947]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.27.45:621][947]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 -0,278
+[2019.02.28-19.27.45:621][947]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.27.48:432][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.27.53:757][541]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.27.53:760][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.27.53:823][541]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.27.53:823][541]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.27.53:868][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.27.53:909][542]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.02.28-19.27.54:443][584]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.27.54:993][614]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.28.00:445][909]BlueprintLog: New page: Compile Lv1
+[2019.02.28-19.28.01:618][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.28.01:648][975]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.28.01:684][975]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.28.01:684][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-19.28.01:685][975]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:28:01)
+[2019.02.28-19.28.01:685][975]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.28.01:704][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019314s)
+[2019.02.28-19.28.01:705][975]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.28.01:705][975]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2019.02.28-19.28.01:705][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.020465s)
+[2019.02.28-19.28.01:801][975]LogInit: XAudio2 using 'Casque (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.28.01:836][975]LogInit: FAudioDevice initialized.
+[2019.02.28-19.28.01:870][975]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.28.01:876][975]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.28.01
+[2019.02.28-19.28.01:877][975]LogWorld: Bringing up level for play took: 0.005635
+[2019.02.28-19.28.01:890][975]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.28.01:890][975]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.28.01:890][975]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.28.01:894][975]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.28.01:894][975]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 -0,005
+[2019.02.28-19.28.01:894][975]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.28.08:129][531]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.28.08:130][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.28.08:176][531]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.28.08:176][531]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.28.08:251][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.28.08:288][532]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.02.28-19.28.16:536][706]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.28.35:380][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lv1" FILE="../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Autosaves/Game/Lv1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.02.28-19.28.36:002][759]LogSavePackage: Moving '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Lv1_Auto11E83B5D34BF36655DD3017BBB368FC28.tmp' to '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Autosaves/Game/Lv1_Auto1.umap'
+[2019.02.28-19.28.36:018][759]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Lv1' took 0.717
+[2019.02.28-19.28.36:018][759]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.717
+[2019.02.28-19.28.36:022][759]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Wolf1] ([1] browsable assets)...
+[2019.02.28-19.28.36:051][759]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Wolf1.Wolf1]
+[2019.02.28-19.28.36:051][759]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Wolf1]
+[2019.02.28-19.28.36:051][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Wolf1" FILE="../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Autosaves/Game/Blueprints/Wolf1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.02.28-19.28.36:074][759]LogSavePackage: Moving '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Wolf1_Auto14AEF8DF544398056E2BB7DBD09EEBA2C.tmp' to '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Autosaves/Game/Blueprints/Wolf1_Auto1.uasset'
+[2019.02.28-19.28.36:077][759]LogFileHelpers: Auto-saving content packages took 0.057
+[2019.02.28-19.32.40:755][614]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.33.22:954][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.33.25:552][656]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.02.28-19.33.30:719][928]LogSlate: Window 'Delete Assets' being destroyed
+[2019.02.28-19.33.30:893][928]LogSlate: Window 'StandardMacros' being destroyed
+[2019.02.28-19.33.36:655][  4]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.02.28-19.33.39:845][244]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Wolf.Wolf
+[2019.02.28-19.33.50:095][711]LogSlate: Window 'Wolf*' being destroyed
+[2019.02.28-19.33.50:103][711]LogSlate: Window 'Wolf*' being destroyed
+[2019.02.28-19.33.53:111][865]LogSlate: Window 'Delete Assets' being destroyed
+[2019.02.28-19.34.01:733][ 50]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.02.28-19.34.06:512][418]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Wolf1.Wolf1
+[2019.02.28-19.34.32:562][365]BlueprintLog: New page: Compile Wolf1
+[2019.02.28-19.35.28:909][673]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.02.28-19.35.32:062][890]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/pawn.pawn
+[2019.02.28-19.35.52:815][908]BlueprintLog: New page: Compile pawn
+[2019.02.28-19.36.12:585][937]BlueprintLog: New page: Compile pawn
+[2019.02.28-19.36.12:639][937]LogBlueprint: Error: [Compiler pawn] The type of  Object  is undetermined.  Connect something to  Cast To BpLuck  to imply a specific type.
+[2019.02.28-19.36.12:640][937]LogBlueprint: Error: [Compiler pawn] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2019.02.28-19.36.12:906][937]LogBlueprint: Warning: [Compiler pawn] [1430,19] Compile of pawn failed. 2 Fatal Issue(s) 0 Warning(s) [in 320 ms] (/Game/Blueprints/pawn.pawn)
+[2019.02.28-19.36.21:411][413]BlueprintLog: New page: Compile pawn
+[2019.02.28-19.36.21:436][413]LogBlueprint: Warning: [Compiler pawn] 'Bp Luck' does not inherit from 'Pawn' ( Cast To BpLuck  would always fail).
+[2019.02.28-19.36.21:660][413]LogBlueprint: Warning: [Compiler pawn] [1438,94] Compile of pawn successful, but with 1 Warning(s) [in 248 ms] (/Game/Blueprints/pawn.pawn)
+[2019.02.28-19.37.25:586][694]BlueprintLog: New page: Compile pawn
+[2019.02.28-19.37.28:487][864]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.37.28:532][864]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.37.28:533][864]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.02.28-19.37.28:537][864]LogPlayLevel: [PlayLevel] Compiling Wolf1 before play...
+[2019.02.28-19.37.28:545][864]LogBlueprint: Error: [Compiler Wolf1] The type of  Object  is undetermined.  Connect something to  Cast To BpLuck  to imply a specific type.
+[2019.02.28-19.37.28:546][864]LogBlueprint: Error: [Compiler Wolf1] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2019.02.28-19.37.28:548][864]LogBlueprint: Warning: [Compiler Wolf1] [1505,83] Compile of Wolf1 failed. 2 Fatal Issue(s) 0 Warning(s) [in 11 ms] (/Game/Blueprints/Wolf1.Wolf1)
+[2019.02.28-19.37.28:795][864]LogPlayLevel: PlayLevel: Blueprint regeneration took 262 ms (1 blueprints)
+[2019.02.28-19.37.28:795][864]BlueprintLog: Blueprint Wolf1 failed to compile
+[2019.02.28-19.37.30:420][864]LogSlate: Window 'Message' being destroyed
+[2019.02.28-19.37.31:511][933]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Lv1.Lv1:PersistentLevel.Lv1
+[2019.02.28-19.37.33:677][ 14]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.28-19.37.38:589][276]BlueprintLog: New page: Compile Lv1
+[2019.02.28-19.37.45:896][626]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.37.47:665][729]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.37.47:703][729]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.37.47:703][729]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.02.28-19.37.47:709][729]LogPlayLevel: [PlayLevel] Compiling Lv1 before play...
+[2019.02.28-19.37.47:713][729]LogPlayLevel: [PlayLevel]   Compiling pawn as a dependent...
+[2019.02.28-19.37.47:947][729]LogPlayLevel: PlayLevel: Blueprint regeneration took 244 ms (2 blueprints)
+[2019.02.28-19.37.49:154][729]LogSlate: Window 'Message' being destroyed
+[2019.02.28-19.37.54:485][  6]BlueprintLog: New page: Compile Lv1
+[2019.02.28-19.38.01:252][332]BlueprintLog: New page: Compile Wolf1
+[2019.02.28-19.38.02:848][421]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.38.02:881][421]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.38.02:881][421]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-19.38.02:881][421]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:38:02)
+[2019.02.28-19.38.02:881][421]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.38.02:898][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016040s)
+[2019.02.28-19.38.02:899][421]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.38.02:899][421]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2019.02.28-19.38.02:899][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.017299s)
+[2019.02.28-19.38.02:995][421]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.38.03:020][421]LogInit: FAudioDevice initialized.
+[2019.02.28-19.38.03:055][421]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.38.03:059][421]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.38.03
+[2019.02.28-19.38.03:060][421]LogWorld: Bringing up level for play took: 0.004173
+[2019.02.28-19.38.03:073][421]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.38.03:073][421]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.38.03:073][421]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.38.03:075][421]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.38.03:075][421]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 1,176
+[2019.02.28-19.38.03:075][421]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.39.22:961][294]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.39.45:457][316]PIE: Warning: Mobility of /Game/UEDPIE_0_Lv1.Lv1:PersistentLevel.NavMeshBoundsVolume_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2019.02.28-19.39.45:512][316]PIE: Warning: Mobility of /Game/UEDPIE_0_Lv1.Lv1:PersistentLevel.NavMeshBoundsVolume_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2019.02.28-19.39.45:520][316]PIE: Warning: Mobility of /Game/UEDPIE_0_Lv1.Lv1:PersistentLevel.NavMeshBoundsVolume_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2019.02.28-19.39.45:530][317]PIE: Warning: Mobility of /Game/UEDPIE_0_Lv1.Lv1:PersistentLevel.NavMeshBoundsVolume_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2019.02.28-19.39.45:532][317]PIE: Warning: Mobility of /Game/UEDPIE_0_Lv1.Lv1:PersistentLevel.NavMeshBoundsVolume_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2019.02.28-19.39.45:535][317]PIE: Warning: Mobility of /Game/UEDPIE_0_Lv1.Lv1:PersistentLevel.NavMeshBoundsVolume_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2019.02.28-19.39.45:538][317]PIE: Warning: Mobility of /Game/UEDPIE_0_Lv1.Lv1:PersistentLevel.NavMeshBoundsVolume_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2019.02.28-19.39.45:541][317]PIE: Warning: Mobility of /Game/UEDPIE_0_Lv1.Lv1:PersistentLevel.NavMeshBoundsVolume_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2019.02.28-19.39.45:543][317]PIE: Warning: Mobility of /Game/UEDPIE_0_Lv1.Lv1:PersistentLevel.NavMeshBoundsVolume_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2019.02.28-19.39.45:571][317]PIE: Warning: Mobility of /Game/UEDPIE_0_Lv1.Lv1:PersistentLevel.NavMeshBoundsVolume_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2019.02.28-19.39.45:812][330]PIE: Warning: Mobility of /Game/UEDPIE_0_Lv1.Lv1:PersistentLevel.NavMeshBoundsVolume_1 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2019.02.28-19.39.55:870][514]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.39.59:130][645]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.40.03:947][953]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.40.03:948][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.40.04:030][953]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.40.04:031][953]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.40.04:141][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.40.04:267][954]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.02.28-19.40.06:717][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.40.14:206][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.40.24:973][284]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.02.28-19.40.26:683][412]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.41.02:585][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lv1" FILE="../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Autosaves/Game/Lv1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.02.28-19.41.03:677][216]LogSavePackage: Moving '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Lv1_Auto223412E1142D04B1A46C3CDA460B29E93.tmp' to '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Autosaves/Game/Lv1_Auto2.umap'
+[2019.02.28-19.41.03:702][216]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Lv1' took 1.218
+[2019.02.28-19.41.03:703][216]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.218
+[2019.02.28-19.41.03:717][216]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Wolf1] ([1] browsable assets)...
+[2019.02.28-19.41.03:738][216]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Wolf1.Wolf1]
+[2019.02.28-19.41.03:738][216]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Wolf1]
+[2019.02.28-19.41.03:738][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Wolf1" FILE="../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Autosaves/Game/Blueprints/Wolf1_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.02.28-19.41.03:763][216]LogSavePackage: Moving '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Wolf1_Auto294C9014842C19B1087C7F0B00C59F4F0.tmp' to '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Autosaves/Game/Blueprints/Wolf1_Auto2.uasset'
+[2019.02.28-19.41.03:770][216]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/pawn] ([1] browsable assets)...
+[2019.02.28-19.41.03:799][216]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/pawn.pawn]
+[2019.02.28-19.41.03:799][216]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/pawn]
+[2019.02.28-19.41.03:799][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/pawn" FILE="../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Autosaves/Game/Blueprints/pawn_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.02.28-19.41.03:845][216]LogSavePackage: Moving '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/pawn_Auto26AD9773249A60E262E3EA484CC484378.tmp' to '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Autosaves/Game/Blueprints/pawn_Auto2.uasset'
+[2019.02.28-19.41.03:850][216]LogFileHelpers: Auto-saving content packages took 0.139
+[2019.02.28-19.42.17:386][490]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.42.41:294][ 85]LogSlate: Window 'Delete Assets' being destroyed
+[2019.02.28-19.42.41:581][ 85]LogSlate: Window 'Wolf1*' being destroyed
+[2019.02.28-19.42.41:591][ 85]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.02.28-19.42.50:463][ 85]LogStats: FPlatformStackWalk::StackWalkAndDump -  8.367 s
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: === Handled ensure: ===
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: 
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: Ensure condition failed: ChildActorTemplate == nullptr [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Components\ChildActorComponent.cpp] [Line: 105]
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: Found unexpected ChildActorTemplate REINST_pawn_C_169 /Engine/Transient.TRASHCLASS_pawn_136:NODE_AddChildActorComponent-0.NODE_AddChildActorComponent-0_pawn_C_CAT when ChildActorClass is null
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: Stack: 
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff4be571f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff4bb90c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff4bbab356 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff3b4c944f UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff6ebe66da UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff3e77175c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff3ec93324 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff3ec90a66 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff3e3d1068 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff3e682970 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff3e67cd7f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff4db19c3b UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff4d9094c5 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff4d9a1db2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff4d987c7a UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff4d97b25c UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff8f3bd1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff8f3b0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff8f3bf4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff8f3ac209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fffad95ca66 USER32.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fffad95c582 USER32.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff8f3c05a9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-19.42.50:463][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff4d9af2b2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff4d9377c7 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff3e721156 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff3ec844f0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff3ec838f3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff2cc07962 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff2cd33247 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff2cd10fa8 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff4d9424df UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff4d98437e UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff2cd5eab3 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff4d9070ac UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff4d98606c UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff4d979846 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff8f3bce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff8f3b0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff8f3bf4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff8f3ac209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fffad95ca66 USER32.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fffad95c582 USER32.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fff8f3c0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007ff79b9954e5 UE4Editor.exe!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007ff79b9a5b3c UE4Editor.exe!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007ff79b9a5bba UE4Editor.exe!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007ff79b9b3dac UE4Editor.exe!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007ff79b9b5aaa UE4Editor.exe!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fffadb081f4 KERNEL32.DLL!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: [Callstack] 0x00007fffb012a251 ntdll.dll!UnknownFunction []
+[2019.02.28-19.42.50:464][ 85]LogOutputDevice: Error: 
+[2019.02.28-19.42.50:482][ 85]LogStats:                SubmitErrorReport -  0.004 s
+[2019.02.28-19.43.16:488][ 85]LogStats:                    SendNewReport - 26.006 s
+[2019.02.28-19.43.16:488][ 85]LogStats:             FDebug::EnsureFailed - 34.405 s
+[2019.02.28-19.43.28:571][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.43.28:724][397]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Wolf1.Wolf1
+[2019.02.28-19.44.22:215][186]BlueprintLog: New page: Compile Wolf1
+[2019.02.28-19.45.08:916][430]BlueprintLog: New page: Compile Wolf1
+[2019.02.28-19.45.17:648][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.45.58:804][464]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.47.10:602][385]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.47.16:823][673]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.47.22:298][861]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.47.29:695][205]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.47.36:205][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.48.04:799][873]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.48.13:234][299]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.48.19:419][597]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.48.23:232][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.48.23:307][790]BlueprintLog: New page: Compile Wolf1
+[2019.02.28-19.48.25:039][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.49.12:657][110]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.51.03:494][362]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.51.33:241][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lv1" FILE="../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Autosaves/Game/Lv1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.02.28-19.51.33:320][753]LogBlueprint: Error: [Compiler PersistentLevel.Lv1] Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2019.02.28-19.51.33:321][753]LogBlueprint: Warning: [Compiler PersistentLevel.Lv1] [2350,61] Compile of PersistentLevel.Lv1 failed. 1 Fatal Issue(s) 0 Warning(s) [in 18 ms] (/Game/Lv1.Lv1:PersistentLevel.Lv1)
+[2019.02.28-19.51.33:704][753]LogSavePackage: Moving '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Lv1_Auto34F06AE3C42928939AC8A78B39EA7A7FE.tmp' to '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Autosaves/Game/Lv1_Auto3.umap'
+[2019.02.28-19.51.33:712][753]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Lv1' took 0.507
+[2019.02.28-19.51.33:712][753]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.507
+[2019.02.28-19.51.33:714][753]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Wolf1] ([1] browsable assets)...
+[2019.02.28-19.51.33:727][753]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Wolf1.Wolf1]
+[2019.02.28-19.51.33:727][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Wolf1]
+[2019.02.28-19.51.33:727][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Wolf1" FILE="../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Autosaves/Game/Blueprints/Wolf1_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2019.02.28-19.51.33:744][753]LogSavePackage: Moving '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Wolf1_Auto36292418C4C23F0AB4D1C50858313E2DA.tmp' to '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Autosaves/Game/Blueprints/Wolf1_Auto3.uasset'
+[2019.02.28-19.51.33:747][753]LogFileHelpers: Auto-saving content packages took 0.033
+[2019.02.28-19.51.49:868][802]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.52.03:299][234]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.56.03:557][265]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.02.28-19.56.15:040][568]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.02.28-19.56.20:273][965]BlueprintLog: New page: Compile Wolf1
+[2019.02.28-19.56.31:931][805]BlueprintLog: New page: Compile Wolf1
+[2019.02.28-19.56.34:552][989]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/wolf.wolf
+[2019.02.28-19.56.48:404][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.56.51:347][808]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.56.54:163][993]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.56.56:286][170]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.56.56:767][208]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.02.28-19.57.00:346][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.57.04:241][686]BlueprintLog: New page: Compile wolf
+[2019.02.28-19.57.11:152][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.57.12:026][139]BlueprintLog: New page: Compile wolf
+[2019.02.28-19.57.20:818][654]BlueprintLog: New page: Compile wolf
+[2019.02.28-19.57.24:195][853]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Lv1.Lv1:PersistentLevel.Lv1
+[2019.02.28-19.57.26:149][928]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.28-19.57.29:260][105]BlueprintLog: New page: Compile Lv1
+[2019.02.28-19.57.31:884][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lv1" FILE="../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/Lv1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.28-19.57.32:357][132]LogSavePackage: Moving '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/Lv11B35DB3C4708A9EF2B597997B1D55915.tmp' to '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/Lv1.umap'
+[2019.02.28-19.57.32:386][132]LogFileHelpers: Saving map 'Lv1' took 2.434
+[2019.02.28-19.57.33:758][246]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.57.33:806][246]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.57.33:806][246]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-19.57.33:806][246]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:57:33)
+[2019.02.28-19.57.33:806][246]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.57.33:848][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041697s)
+[2019.02.28-19.57.33:849][246]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.57.33:849][246]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2019.02.28-19.57.33:849][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.042557s)
+[2019.02.28-19.57.33:935][246]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.57.33:951][246]LogInit: FAudioDevice initialized.
+[2019.02.28-19.57.34:007][246]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.57.34:026][246]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.57.34
+[2019.02.28-19.57.34:026][246]LogWorld: Bringing up level for play took: 0.003425
+[2019.02.28-19.57.34:070][246]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.57.34:070][246]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.57.34:070][246]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.57.34:095][246]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.57.34:096][246]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 0,196
+[2019.02.28-19.57.34:096][246]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.57.42:614][125]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.57.42:632][125]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.57.42:667][125]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.57.42:668][125]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.57.42:702][125]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.57.42:727][126]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.02.28-19.57.51:127][233]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.57.52:848][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.57.56:153][569]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.57.56:201][573]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.57.56:231][573]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.57.56:231][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-19.57.56:231][573]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:57:56)
+[2019.02.28-19.57.56:231][573]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.57.56:246][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014669s)
+[2019.02.28-19.57.56:247][573]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.57.56:247][573]LogPlayLevel: PIE: World Init took: (0.001166s)
+[2019.02.28-19.57.56:248][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.016023s)
+[2019.02.28-19.57.56:314][573]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.57.56:329][573]LogInit: FAudioDevice initialized.
+[2019.02.28-19.57.56:364][573]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.57.56:369][573]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.57.56
+[2019.02.28-19.57.56:452][573]LogWorld: Bringing up level for play took: 0.086069
+[2019.02.28-19.57.56:464][573]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.57.56:465][573]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.57.56:465][573]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.57.56:467][573]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.57.56:467][573]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 0,568
+[2019.02.28-19.57.56:467][573]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.58.02:701][195]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.58.02:702][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.58.02:746][195]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.58.02:746][195]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.58.02:802][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.58.02:841][196]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.02.28-19.58.03:940][303]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.58.04:539][337]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.28-19.58.42:937][124]BlueprintLog: New page: Compile wolf
+[2019.02.28-19.58.45:249][303]LogEditorViewport: Clicking Background
+[2019.02.28-19.58.46:178][398]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf)
+[2019.02.28-19.58.46:951][469]Cmd: DELETE
+[2019.02.28-19.58.46:951][469]Cmd: ACTOR DELETE
+[2019.02.28-19.58.47:026][469]LogEditorActor: Deleted Actor: wolf_C
+[2019.02.28-19.58.47:062][469]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2019.02.28-19.58.47:593][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.58.47:657][529]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.58.47:682][529]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.58.47:682][529]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-19.58.47:683][529]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:58:47)
+[2019.02.28-19.58.47:683][529]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.58.47:707][529]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023640s)
+[2019.02.28-19.58.47:707][529]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.58.47:708][529]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2019.02.28-19.58.47:708][529]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.024907s)
+[2019.02.28-19.58.47:808][529]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.58.47:831][529]LogInit: FAudioDevice initialized.
+[2019.02.28-19.58.47:864][529]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.58.47:869][529]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.58.47
+[2019.02.28-19.58.47:869][529]LogWorld: Bringing up level for play took: 0.004183
+[2019.02.28-19.58.47:880][529]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.58.47:881][529]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.58.47:881][529]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.58.47:882][529]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.58.47:883][529]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 -0,016
+[2019.02.28-19.58.47:883][529]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.58.57:551][492]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.58.57:555][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.58.57:596][492]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.58.57:596][492]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.58.57:638][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.58.57:667][493]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.02.28-19.58.59:902][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.59.01:025][721]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.59.01:085][726]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-19.59.01:121][726]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.59.01:121][726]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-19.59.01:122][726]PIE: New page: PIE session: Lv1 (28 févr. 2019 21:59:01)
+[2019.02.28-19.59.01:122][726]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-19.59.01:140][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018726s)
+[2019.02.28-19.59.01:141][726]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-19.59.01:141][726]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2019.02.28-19.59.01:141][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.019804s)
+[2019.02.28-19.59.01:234][726]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-19.59.01:264][726]LogInit: FAudioDevice initialized.
+[2019.02.28-19.59.01:309][726]LogLoad: Game class is 'Fps_C'
+[2019.02.28-19.59.01:314][726]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-20.59.01
+[2019.02.28-19.59.01:315][726]LogWorld: Bringing up level for play took: 0.005626
+[2019.02.28-19.59.01:328][726]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.59.01:328][726]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-19.59.01:328][726]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.59.01:330][726]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-19.59.01:330][726]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 -0,569
+[2019.02.28-19.59.01:331][726]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.59.03:016][878]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-19.59.03:500][923]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-19.59.04:009][960]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-19.59.04:367][980]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.59.04:367][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.59.04:419][980]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-19.59.04:419][980]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-19.59.04:480][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-19.59.04:517][981]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2019.02.28-19.59.17:995][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.59.27:783][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-19.59.40:397][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-20.00.02:694][788]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-20.00.02:735][790]BlueprintLog: New page: Compile wolf
+[2019.02.28-20.00.04:688][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-20.00.04:770][886]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-20.00.04:811][886]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-20.00.04:811][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-20.00.04:811][886]PIE: New page: PIE session: Lv1 (28 févr. 2019 22:00:04)
+[2019.02.28-20.00.04:811][886]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-20.00.04:830][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018345s)
+[2019.02.28-20.00.04:831][886]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-20.00.04:831][886]LogPlayLevel: PIE: World Init took: (0.001453s)
+[2019.02.28-20.00.04:831][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.020059s)
+[2019.02.28-20.00.04:924][886]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-20.00.04:946][886]LogInit: FAudioDevice initialized.
+[2019.02.28-20.00.04:982][886]LogLoad: Game class is 'Fps_C'
+[2019.02.28-20.00.04:986][886]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-21.00.04
+[2019.02.28-20.00.04:986][886]LogWorld: Bringing up level for play took: 0.003309
+[2019.02.28-20.00.05:000][886]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-20.00.05:000][886]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-20.00.05:000][886]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-20.00.05:003][886]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-20.00.05:003][886]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 1,104
+[2019.02.28-20.00.05:003][886]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-20.00.08:739][231]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-20.00.09:250][278]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-20.00.09:756][321]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-20.00.13:501][514]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-20.00.13:604][514]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-20.00.13:605][514]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-20.00.13:653][514]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-20.00.13:653][514]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-20.00.13:703][514]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-20.00.13:733][515]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2019.02.28-20.00.18:650][912]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.28-20.00.18:681][912]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-20.00.18:681][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.28-20.00.18:681][912]PIE: New page: PIE session: Lv1 (28 févr. 2019 22:00:18)
+[2019.02.28-20.00.18:681][912]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
+[2019.02.28-20.00.18:699][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018247s)
+[2019.02.28-20.00.18:700][912]LogAIModule: Creating AISystem for world Lv1
+[2019.02.28-20.00.18:700][912]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2019.02.28-20.00.18:700][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.019223s)
+[2019.02.28-20.00.18:786][912]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-20.00.18:805][912]LogInit: FAudioDevice initialized.
+[2019.02.28-20.00.18:836][912]LogLoad: Game class is 'Fps_C'
+[2019.02.28-20.00.18:839][912]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 0) at 2019.02.28-21.00.18
+[2019.02.28-20.00.18:840][912]LogWorld: Bringing up level for play took: 0.002981
+[2019.02.28-20.00.18:852][912]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-20.00.18:852][912]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.02.28-20.00.18:852][912]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-20.00.18:854][912]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.02.28-20.00.18:854][912]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 0,955
+[2019.02.28-20.00.18:854][912]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-20.00.21:453][141]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-20.00.21:958][187]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-20.00.22:463][234]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-20.00.22:973][278]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-20.00.23:483][325]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-20.00.26:510][585]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-20.00.30:063][908]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-20.00.30:570][949]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-20.01.03:169][ 70]LogHttp: Warning: 000002908B870E00: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B933C44A9-4BD6-8148-AE30-D28FED3184A9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=b39767674bfcfcf11b69e583fe3f14dc%7C08754707ae8c4f698a1491ef8d6f4c5c%7C7a3dcf3d-ddcb-4888-acd5-676de65c3778&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 502, content length: 138, actual payload size: 138
+[2019.02.28-20.01.03:180][ 70]LogHttp: Warning: 000002908B870E00 Response Header Server: awselb/2.0
+[2019.02.28-20.01.03:180][ 70]LogHttp: Warning: 000002908B870E00 Response Header Date: Thu, 28 Feb 2019 20:01:14 GMT
+[2019.02.28-20.01.03:180][ 70]LogHttp: Warning: 000002908B870E00 Response Header Content-Type: text/html
+[2019.02.28-20.01.03:180][ 70]LogHttp: Warning: 000002908B870E00 Response Header Content-Length: 138
+[2019.02.28-20.01.03:180][ 70]LogHttp: Warning: 000002908B870E00 Response Header Connection: keep-alive
+[2019.02.28-20.01.05:567][265]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-20.01.06:070][311]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-20.01.09:101][590]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-20.01.09:615][637]LogBlueprintUserMessages: [wolf_5] Hello
+[2019.02.28-20.01.09:904][663]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-20.01.09:904][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-20.01.09:966][663]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.28-20.01.09:966][663]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lv1.Lv1:PersistentLevel' has LevelScriptBlueprint '/Game/Lv1.Lv1:PersistentLevel.Lv1' with GeneratedClass '/Game/Lv1.Lv1_C' with ClassGeneratedBy '/Game/Lv1.Lv1:PersistentLevel.Lv1'
+[2019.02.28-20.01.10:007][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-20.01.10:039][664]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2019.02.28-20.01.48:997][354]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-20.01.52:067][578]LogLinker: Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2019.02.28-20.01.52:067][578]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2019.02.28-20.01.52:074][578]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/Mannequin/Animations/ThirdPerson_AnimBP
+[2019.02.28-20.01.52:076][578]LogLinker: Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2019.02.28-20.01.52:077][578]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2019.02.28-20.01.52:077][578]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2019.02.28-20.01.52:078][578]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2019.02.28-20.01.52:078][578]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/Mannequin/Character/Mesh/SK_Mannequin
+[2019.02.28-20.01.52:078][578]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2019.02.28-20.01.52:079][578]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2019.02.28-20.01.52:086][578]LogLinker: Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2019.02.28-20.01.52:086][578]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading NULL.
+[2019.02.28-20.01.52:086][578]LogLinker: Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2019.02.28-20.01.52:086][578]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading NULL.
+[2019.02.28-20.01.52:087][578]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2019.02.28-20.01.52:087][578]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading NULL.
+[2019.02.28-20.01.52:088][578]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2019.02.28-20.01.52:089][578]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading NULL.
+[2019.02.28-20.01.52:089][578]LogLinker: Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2019.02.28-20.01.52:090][578]LoadErrors: Failed to load /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Referenced by Default__ThirdPersonCharacter_C
+[2019.02.28-20.01.52:090][578]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading NULL.
+[2019.02.28-20.01.52:090][578]LogLinker: Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2019.02.28-20.01.52:090][578]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading NULL.
+[2019.02.28-20.01.52:090][578]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2019.02.28-20.01.52:090][578]LoadErrors: Failed to load /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin Referenced by Default__ThirdPersonCharacter_C
+[2019.02.28-20.01.52:091][578]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading NULL.
+[2019.02.28-20.01.52:131][578]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2019.02.28-20.01.52:131][578]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2019.02.28-20.01.52:141][578]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [2969,43] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 42 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_40' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_47' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_79' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_90' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_38' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_53' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:BaseLookUpRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:BaseTurnRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:CameraBoom' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:FollowCamera' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:BaseLookUpRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:BaseTurnRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:CameraBoom' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:FollowCamera' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:020][770]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.01.55:095][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ThirdPersonCharacter" FILE="../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2019.02.28-20.01.55:176][770]LogSavePackage: Moving '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/ThirdPersonCharacter740A6479437E9E6E9F9050AB722762A6.tmp' to '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/Blueprints/ThirdPersonCharacter.uasset'
+[2019.02.28-20.01.55:211][770]LogSavePackage: Moving '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/ThirdPersonCharacter794F63EE4AC5058D28E486AFB4C974F8.tmp' to '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.02.28-20.02.03:541][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-20.02.03:702][231]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.02.28-20.02.06:979][347]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.02.28-20.02.07:017][347]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2019.02.28-20.02.07:017][347]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2019.02.28-20.02.07:352][347]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [2984,64] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 373 ms] (/Game/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2019.02.28-20.02.19:996][939]BlueprintLog: New page: Compile wolf
+[2019.02.28-20.02.32:106][630]Cmd: DELETE
+[2019.02.28-20.02.32:106][630]Cmd: ACTOR DELETE
+[2019.02.28-20.02.32:116][630]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
+[2019.02.28-20.02.32:199][630]LogEditorActor: Deleted 1 Actors (0.093 secs)
+[2019.02.28-20.02.33:794][750]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-20.02.37:937][969]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-20.02.48:847][534]Cmd: TRANSACTION UNDO
+[2019.02.28-20.02.48:847][534]LogEditorTransaction: Undo Delete Actors
+[2019.02.28-20.02.49:240][540]Cmd: TRANSACTION UNDO
+[2019.02.28-20.02.49:240][540]LogEditorTransaction: Undo Create Actors
+[2019.02.28-20.02.49:654][562]Cmd: TRANSACTION UNDO
+[2019.02.28-20.02.49:654][562]LogEditorTransaction: Undo Modify Component(s)
+[2019.02.28-20.02.50:018][583]Cmd: TRANSACTION UNDO
+[2019.02.28-20.02.50:018][583]LogEditorTransaction: Undo Modify Component(s)
+[2019.02.28-20.02.50:407][603]Cmd: TRANSACTION UNDO
+[2019.02.28-20.02.50:407][603]LogEditorTransaction: Undo Edit Peripheral Vision Angle
+[2019.02.28-20.02.50:841][619]Cmd: TRANSACTION UNDO
+[2019.02.28-20.02.50:841][619]LogEditorTransaction: Undo Edit Peripheral Vision Angle
+[2019.02.28-20.02.51:211][632]Cmd: TRANSACTION UNDO
+[2019.02.28-20.02.51:212][632]LogEditorTransaction: Undo Edit Peripheral Vision Angle
+[2019.02.28-20.02.51:593][653]Cmd: TRANSACTION UNDO
+[2019.02.28-20.02.51:593][653]LogEditorTransaction: Undo Edit Peripheral Vision Angle
+[2019.02.28-20.02.52:005][677]Cmd: TRANSACTION UNDO
+[2019.02.28-20.02.52:005][677]LogEditorTransaction: Undo Edit Peripheral Vision Angle
+[2019.02.28-20.02.52:970][733]Cmd: TRANSACTION REDO
+[2019.02.28-20.02.52:970][733]LogEditorTransaction: Redo Edit Peripheral Vision Angle
+[2019.02.28-20.02.53:144][744]Cmd: TRANSACTION REDO
+[2019.02.28-20.02.53:144][744]LogEditorTransaction: Redo Edit Peripheral Vision Angle
+[2019.02.28-20.02.53:298][753]Cmd: TRANSACTION REDO
+[2019.02.28-20.02.53:298][753]LogEditorTransaction: Redo Edit Peripheral Vision Angle
+[2019.02.28-20.02.53:475][763]Cmd: TRANSACTION REDO
+[2019.02.28-20.02.53:475][763]LogEditorTransaction: Redo Edit Peripheral Vision Angle
+[2019.02.28-20.02.53:634][772]Cmd: TRANSACTION REDO
+[2019.02.28-20.02.53:634][772]LogEditorTransaction: Redo Edit Peripheral Vision Angle
+[2019.02.28-20.02.53:783][780]Cmd: TRANSACTION REDO
+[2019.02.28-20.02.53:784][780]LogEditorTransaction: Redo Modify Component(s)
+[2019.02.28-20.02.53:986][792]Cmd: TRANSACTION REDO
+[2019.02.28-20.02.53:986][792]LogEditorTransaction: Redo Modify Component(s)
+[2019.02.28-20.02.54:410][817]Cmd: TRANSACTION UNDO
+[2019.02.28-20.02.54:410][817]LogEditorTransaction: Undo Modify Component(s)
+[2019.02.28-20.02.54:632][830]Cmd: TRANSACTION UNDO
+[2019.02.28-20.02.54:632][830]LogEditorTransaction: Undo Modify Component(s)
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_40' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_47' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_79' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_90' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_38' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_53' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:BaseLookUpRate' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:BaseTurnRate' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:CameraBoom' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:FollowCamera' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:BaseLookUpRate' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:BaseTurnRate' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:CameraBoom' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:FollowCamera' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:531][311]LogMetaData: Removing '/Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2019.02.28-20.03.02:571][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/ThirdPersonCharacter" FILE="../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/ThirdPersonCharacter.uasset" SILENT=true
+[2019.02.28-20.03.02:638][311]LogSavePackage: Moving '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/ThirdPersonCharacterDC05263241059BFB3C1FD4A113538BAF.tmp' to '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/ThirdPersonCharacter.uasset'
+[2019.02.28-20.03.03:018][311]LogSavePackage: Moving '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Saved/ThirdPersonCharacter2B4759654377DEC7017C6FBDFE6AEFEF.tmp' to '../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.02.28-20.03.19:274][835]LogSlate: Window 'Delete Assets' being destroyed
+[2019.02.28-20.03.19:357][835]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.02.28-20.03.19:443][835]LogSlate: Window 'Wolf1*' being destroyed
+[2019.02.28-20.03.19:455][835]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.02.28-20.04.40:830][580]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.28-20.04.40:848][580]LogLinker: Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2019.02.28-20.04.40:848][580]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2019.02.28-20.04.40:852][580]LogLinker: Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2019.02.28-20.04.40:852][580]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2019.02.28-20.04.40:852][580]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2019.02.28-20.04.40:852][580]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2019.02.28-20.04.40:853][580]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2019.02.28-20.04.40:854][580]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2019.02.28-20.04.40:920][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2019.02.28-20.04.40:920][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.02.28-20.04.40:920][580]LoadErrors: Error: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube
+[2019.02.28-20.04.40:920][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube_Chamfer'
+[2019.02.28-20.04.40:920][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube_Chamfer' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.02.28-20.04.40:920][580]LoadErrors: Error: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube_Chamfer
+[2019.02.28-20.04.40:921][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/TemplateFloor'
+[2019.02.28-20.04.40:921][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/TemplateFloor' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.02.28-20.04.40:921][580]LoadErrors: Error: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Geometry/Meshes/TemplateFloor
+[2019.02.28-20.04.40:921][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/Bump_StaticMesh'
+[2019.02.28-20.04.40:921][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Bump_StaticMesh' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.02.28-20.04.40:921][580]LoadErrors: Error: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPerson/Meshes/Bump_StaticMesh
+[2019.02.28-20.04.40:921][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh'
+[2019.02.28-20.04.40:921][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.02.28-20.04.40:921][580]LoadErrors: Error: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPerson/Meshes/LeftArm_StaticMesh
+[2019.02.28-20.04.40:922][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh'
+[2019.02.28-20.04.40:922][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.02.28-20.04.40:922][580]LoadErrors: Error: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh
+[2019.02.28-20.04.40:922][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/Ramp_StaticMesh'
+[2019.02.28-20.04.40:922][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Ramp_StaticMesh' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.02.28-20.04.40:922][580]LoadErrors: Error: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPerson/Meshes/Ramp_StaticMesh
+[2019.02.28-20.04.40:922][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/RightArm_StaticMesh'
+[2019.02.28-20.04.40:923][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/RightArm_StaticMesh' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.02.28-20.04.40:923][580]LoadErrors: Error: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPerson/Meshes/RightArm_StaticMesh
+[2019.02.28-20.04.40:923][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2019.02.28-20.04.40:924][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.02.28-20.04.40:924][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube_Chamfer'
+[2019.02.28-20.04.40:924][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube_Chamfer' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.02.28-20.04.40:924][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/TemplateFloor'
+[2019.02.28-20.04.40:924][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/TemplateFloor' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.02.28-20.04.40:924][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/Bump_StaticMesh'
+[2019.02.28-20.04.40:925][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Bump_StaticMesh' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.02.28-20.04.40:925][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh'
+[2019.02.28-20.04.40:925][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.02.28-20.04.40:925][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh'
+[2019.02.28-20.04.40:925][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.02.28-20.04.40:925][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/Ramp_StaticMesh'
+[2019.02.28-20.04.40:925][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Ramp_StaticMesh' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.02.28-20.04.40:926][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/RightArm_StaticMesh'
+[2019.02.28-20.04.40:926][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/RightArm_StaticMesh' while loading ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.02.28-20.04.40:927][580]LogLinker: Error: Failed import: class 'BlueprintGeneratedClass' name 'ThirdPersonCharacter_C' outer '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'. There is another object (of 'ObjectRedirector' class) at the path.
+[2019.02.28-20.04.40:927][580]LogLinker: Warning: Unable to load Default__ThirdPersonCharacter_C with outer Package /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter because its class does not exist
+[2019.02.28-20.04.40:928][580]LogLinker: Error: Failed import: class 'BlueprintGeneratedClass' name 'ThirdPersonCharacter_C' outer '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'. There is another object (of 'ObjectRedirector' class) at the path.
+[2019.02.28-20.04.40:928][580]LogLinker: Error: Failed import: class 'BlueprintGeneratedClass' name 'ThirdPersonCharacter_C' outer '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'. There is another object (of 'ObjectRedirector' class) at the path.
+[2019.02.28-20.04.40:928][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2019.02.28-20.04.40:929][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading NULL.
+[2019.02.28-20.04.40:929][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube_Chamfer'
+[2019.02.28-20.04.40:929][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube_Chamfer' while loading NULL.
+[2019.02.28-20.04.40:929][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/TemplateFloor'
+[2019.02.28-20.04.40:929][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/TemplateFloor' while loading NULL.
+[2019.02.28-20.04.40:930][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/Bump_StaticMesh'
+[2019.02.28-20.04.40:930][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Bump_StaticMesh' while loading NULL.
+[2019.02.28-20.04.40:930][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh'
+[2019.02.28-20.04.40:930][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh' while loading NULL.
+[2019.02.28-20.04.40:930][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh'
+[2019.02.28-20.04.40:930][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh' while loading NULL.
+[2019.02.28-20.04.40:930][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/Ramp_StaticMesh'
+[2019.02.28-20.04.40:931][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Ramp_StaticMesh' while loading NULL.
+[2019.02.28-20.04.40:931][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/RightArm_StaticMesh'
+[2019.02.28-20.04.40:931][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/RightArm_StaticMesh' while loading NULL.
+[2019.02.28-20.04.40:931][580]LogLinker: Error: Failed import: class 'BlueprintGeneratedClass' name 'ThirdPersonCharacter_C' outer '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'. There is another object (of 'ObjectRedirector' class) at the path.
+[2019.02.28-20.04.40:932][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2019.02.28-20.04.40:932][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading NULL.
+[2019.02.28-20.04.40:932][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube_Chamfer'
+[2019.02.28-20.04.40:933][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube_Chamfer' while loading NULL.
+[2019.02.28-20.04.40:933][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/TemplateFloor'
+[2019.02.28-20.04.40:933][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/TemplateFloor' while loading NULL.
+[2019.02.28-20.04.40:933][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/Bump_StaticMesh'
+[2019.02.28-20.04.40:933][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Bump_StaticMesh' while loading NULL.
+[2019.02.28-20.04.40:933][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh'
+[2019.02.28-20.04.40:933][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh' while loading NULL.
+[2019.02.28-20.04.40:934][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh'
+[2019.02.28-20.04.40:934][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh' while loading NULL.
+[2019.02.28-20.04.40:934][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/Ramp_StaticMesh'
+[2019.02.28-20.04.40:934][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Ramp_StaticMesh' while loading NULL.
+[2019.02.28-20.04.40:934][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/RightArm_StaticMesh'
+[2019.02.28-20.04.40:934][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/RightArm_StaticMesh' while loading NULL.
+[2019.02.28-20.04.40:935][580]LogLinker: Error: Failed import: class 'BlueprintGeneratedClass' name 'ThirdPersonCharacter_C' outer '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'. There is another object (of 'ObjectRedirector' class) at the path.
+[2019.02.28-20.04.40:959][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/Bump_StaticMesh'
+[2019.02.28-20.04.40:959][580]LoadErrors: Failed to load /Game/ThirdPerson/Meshes/Bump_StaticMesh.Bump_StaticMesh Referenced by Bump_StaticMesh
+[2019.02.28-20.04.40:959][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Bump_StaticMesh' while loading NULL.
+[2019.02.28-20.04.40:959][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube_Chamfer'
+[2019.02.28-20.04.40:959][580]LoadErrors: Failed to load /Game/Geometry/Meshes/1M_Cube_Chamfer.1M_Cube_Chamfer Referenced by CubeMesh_5
+[2019.02.28-20.04.40:959][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube_Chamfer' while loading NULL.
+[2019.02.28-20.04.40:960][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/TemplateFloor'
+[2019.02.28-20.04.40:960][580]LoadErrors: Failed to load /Game/Geometry/Meshes/TemplateFloor.TemplateFloor Referenced by Floor_1
+[2019.02.28-20.04.40:960][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/TemplateFloor' while loading NULL.
+[2019.02.28-20.04.40:960][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh'
+[2019.02.28-20.04.40:960][580]LoadErrors: Failed to load /Game/ThirdPerson/Meshes/LeftArm_StaticMesh.LeftArm_StaticMesh Referenced by LeftArm_StaticMesh
+[2019.02.28-20.04.40:960][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh' while loading NULL.
+[2019.02.28-20.04.40:960][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh'
+[2019.02.28-20.04.40:961][580]LoadErrors: Failed to load /Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh.Linear_Stair_StaticMesh Referenced by Linear_Stair_StaticMesh
+[2019.02.28-20.04.40:961][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh' while loading NULL.
+[2019.02.28-20.04.40:961][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/Ramp_StaticMesh'
+[2019.02.28-20.04.40:961][580]LoadErrors: Failed to load /Game/ThirdPerson/Meshes/Ramp_StaticMesh.Ramp_StaticMesh Referenced by Ramp_StaticMesh
+[2019.02.28-20.04.40:961][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Ramp_StaticMesh' while loading NULL.
+[2019.02.28-20.04.40:961][580]LogLinker: Warning: Can't find file '/Game/ThirdPerson/Meshes/RightArm_StaticMesh'
+[2019.02.28-20.04.40:961][580]LoadErrors: Failed to load /Game/ThirdPerson/Meshes/RightArm_StaticMesh.RightArm_StaticMesh Referenced by RightArm_StaticMesh
+[2019.02.28-20.04.40:961][580]LogLinker: Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/RightArm_StaticMesh' while loading NULL.
+[2019.02.28-20.04.40:962][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2019.02.28-20.04.40:963][580]LoadErrors: Failed to load /Game/Geometry/Meshes/1M_Cube.1M_Cube Referenced by Wall10
+[2019.02.28-20.04.40:963][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading NULL.
+[2019.02.28-20.04.40:963][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2019.02.28-20.04.40:963][580]LoadErrors: Failed to load /Game/Geometry/Meshes/1M_Cube.1M_Cube Referenced by Wall11
+[2019.02.28-20.04.40:963][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading NULL.
+[2019.02.28-20.04.40:963][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2019.02.28-20.04.40:964][580]LoadErrors: Failed to load /Game/Geometry/Meshes/1M_Cube.1M_Cube Referenced by Wall7_4
+[2019.02.28-20.04.40:964][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading NULL.
+[2019.02.28-20.04.40:964][580]LogLinker: Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube'
+[2019.02.28-20.04.40:964][580]LoadErrors: Failed to load /Game/Geometry/Meshes/1M_Cube.1M_Cube Referenced by Wall9
+[2019.02.28-20.04.40:964][580]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube' while loading NULL.
+[2019.02.28-20.04.41:064][580]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.02.28-20.04.43:728][580]LogSlate: Window 'Delete Assets' being destroyed
+[2019.02.28-20.04.43:895][580]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.096 s
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: === Handled ensure: ===
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: 
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: Ensure condition failed: Found [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\RedirectCollector.cpp] [Line: 198]
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: Cannot remove redirection from /Game/ThirdPersonBP/ThirdPersonCharacter.ThirdPersonCharacter, it was not registered
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: Stack: 
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff4be571f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff4bb90c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff4bbab356 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff6ebcf3f2 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff79302c98 UE4Editor-AssetRegistry.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff3ec85404 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff3ec84f05 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff3e3d0dc6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff3e671760 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff3e67cd7f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff4db19c3b UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff4d9094c5 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff4d9a1db2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff4d987c7a UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff4d97b25c UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff8f3bd1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff8f3b0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff8f3bf4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff8f3ac209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fffad95ca66 USER32.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fffad95c582 USER32.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff8f3c05a9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff4d9af2b2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff4d9377c7 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff3e721156 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff3ec844f0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff2cbfdc8f UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff2cd08119 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff2cd013da UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff2cc60103 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff2cc0461f UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff4db19c3b UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff4d9094c5 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff4d9a1db2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff4d987c7a UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff4d97b25c UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff8f3bd1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff8f3b0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff8f3bf4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fff8f3ac209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fffad95ca66 USER32.dll!UnknownFunction []
+[2019.02.28-20.04.43:895][580]LogOutputDevice: Error: [Callstack] 0x00007fffad95c582 USER32.dll!UnknownFunction []
+[2019.02.28-20.04.43:896][580]LogOutputDevice: Error: [Callstack] 0x00007fff8f3c0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.28-20.04.43:896][580]LogOutputDevice: Error: [Callstack] 0x00007ff79b9954e5 UE4Editor.exe!UnknownFunction []
+[2019.02.28-20.04.43:896][580]LogOutputDevice: Error: [Callstack] 0x00007ff79b9a5b3c UE4Editor.exe!UnknownFunction []
+[2019.02.28-20.04.43:896][580]LogOutputDevice: Error: [Callstack] 0x00007ff79b9a5bba UE4Editor.exe!UnknownFunction []
+[2019.02.28-20.04.43:896][580]LogOutputDevice: Error: [Callstack] 0x00007ff79b9b3dac UE4Editor.exe!UnknownFunction []
+[2019.02.28-20.04.43:896][580]LogOutputDevice: Error: [Callstack] 0x00007ff79b9b5aaa UE4Editor.exe!UnknownFunction []
+[2019.02.28-20.04.43:896][580]LogOutputDevice: Error: [Callstack] 0x00007fffadb081f4 KERNEL32.DLL!UnknownFunction []
+[2019.02.28-20.04.43:896][580]LogOutputDevice: Error: [Callstack] 0x00007fffb012a251 ntdll.dll!UnknownFunction []
+[2019.02.28-20.04.43:896][580]LogOutputDevice: Error: 
+[2019.02.28-20.04.43:903][580]LogStats:                SubmitErrorReport -  0.000 s
