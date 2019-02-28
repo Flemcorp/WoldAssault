@@ -1,4 +1,4 @@
-﻿Log file open, 02/28/19 17:35:24
+﻿Log file open, 02/28/19 17:44:06
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: WoldAssault
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.172239
+LogStats: Stats thread started at 0.344292
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.279s to configure plugins.
+LogStreaming: Display: Took  0.136s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -148,302 +148,226 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.02.28-16.35.25:173][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.28-16.35.25:173][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.28-16.35.25:188][  0]LogHAL: Display: Platform has ~ 8 GB [8523456512 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.02.28-16.35.25:188][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.02.28-16.35.25:188][  0]LogInit: Going up to parent DeviceProfile []
-[2019.02.28-16.35.25:188][  0]LogInit: Computer: DESKTOP-B5RE4LC
-[2019.02.28-16.35.25:188][  0]LogInit: User: Wess9
-[2019.02.28-16.35.25:188][  0]LogInit: CPU Page size=4096, Cores=2
-[2019.02.28-16.35.25:188][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.02.28-16.35.25:189][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.02.28-16.35.25:189][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.28-16.35.25:189][  0]LogMemory: Process Physical Memory: 100.67 MB used, 100.67 MB peak
-[2019.02.28-16.35.25:189][  0]LogMemory: Process Virtual Memory: 84.34 MB used, 84.34 MB peak
-[2019.02.28-16.35.25:189][  0]LogMemory: Physical Memory: 6457.48 MB used,  1671.13 MB free, 8128.60 MB total
-[2019.02.28-16.35.25:189][  0]LogMemory: Virtual Memory: 4604.79 MB used,  1671.13 MB free, 134217728.00 MB total
-[2019.02.28-16.35.25:220][  0]LogInit: Using OS detected language (fr-FR).
-[2019.02.28-16.35.25:220][  0]LogInit: Using OS detected locale (fr-FR).
-[2019.02.28-16.35.25:223][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
-[2019.02.28-16.35.25:226][  0]LogStreaming: Display: Took  0.006s to InitEngineTextLocalization.
-[2019.02.28-16.35.25:226][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.28-16.35.25:279][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.28-16.35.25:279][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.28-16.35.25:778][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.28-16.35.25:778][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.28-16.35.25:914][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2019.02.28-16.35.25:914][  0]LogD3D11RHI:       1977/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.02.28-16.35.25:918][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.28-16.35.25:918][  0]LogD3D11RHI:       0/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.28-16.35.25:918][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.28-16.35.25:929][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.28-16.35.25:929][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
-[2019.02.28-16.35.25:929][  0]LogWindows: EnumDisplayDevices:
-[2019.02.28-16.35.25:929][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
-[2019.02.28-16.35.25:930][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2019.02.28-16.35.25:930][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2019.02.28-16.35.25:931][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2019.02.28-16.35.25:931][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.02.28-16.35.25:931][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2019.02.28-16.35.25:931][  0]LogD3D11RHI:   Driver Version: 417.71 (internal:25.21.14.1771, unified:417.71)
-[2019.02.28-16.35.25:931][  0]LogD3D11RHI:      Driver Date: 1-11-2019
-[2019.02.28-16.35.25:931][  0]LogRHI: Texture pool is 1384 MB (70% of 1977 MB)
-[2019.02.28-16.35.25:996][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.28-16.35.26:030][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.02.28-16.35.26:076][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Intermediate/Shaders/WorkingDirectory/13496/).
-[2019.02.28-16.35.26:077][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Wess9/AppData/Local/Temp/UnrealShaderWorkingDir/DF2CE0E446088905A55EF69E526F035B/'.
-[2019.02.28-16.35.26:819][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.28-16.35.26:843][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.28-16.35.26:869][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.28-16.35.26:896][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.28-16.35.26:921][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.28-16.35.26:945][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.28-16.35.26:971][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.28-16.35.26:997][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.28-16.35.27:009][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-16.35.27:161][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.28-16.35.27:263][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.28-16.35.27:263][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.28-16.35.27:304][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.28-16.35.27:304][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.28-16.35.27:322][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.28-16.35.27:342][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.28-16.35.27:374][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.28-16.35.27:398][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.28-16.35.27:414][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.28-16.35.27:414][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.28-16.35.27:533][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.28-16.35.27:533][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.28-16.35.27:533][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.28-16.35.28:961][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.28-16.35.29:035][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/Wess9/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.28-16.35.29:035][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Wess9/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.02.28-16.35.29:036][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.28-16.35.29:036][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.28-16.35.29:036][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.28-16.35.29:036][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.28-16.35.29:052][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.28-16.35.29:064][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Wess9/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.28-16.35.29:064][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.28-16.35.29:064][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.28-16.35.29:084][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.28-16.35.29:085][  0]LogSlate: Using FreeType 2.6.0
-[2019.02.28-16.35.29:086][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.28-16.35.29:189][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
-[2019.02.28-16.35.29:677][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.28-16.35.29:831][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.28-16.35.29:836][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.28-16.35.29:836][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.02.28-16.35.29:836][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.28-16.35.29:836][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.28-16.35.29:858][  0]LogNetVersion: WoldAssault 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3604439811)
-[2019.02.28-16.35.30:714][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.249405 seconds
-[2019.02.28-16.35.30:721][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.02.28-16.35.30:721][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.02.28-16.35.30:721][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.28-16.35.31:875][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.28-16.35.31:889][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.28-16.35.32:054][  0]SourceControl: Source control is disabled
-[2019.02.28-16.35.32:054][  0]SourceControl: Source control is disabled
-[2019.02.28-16.35.32:055][  0]SourceControl: Source control is disabled
-[2019.02.28-16.35.32:057][  0]SourceControl: Source control is disabled
-[2019.02.28-16.35.32:257][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.28-16.35.32:389][  0]LogOcInput: OculusInput pre-init called
-[2019.02.28-16.35.32:462][  0]LogEngine: Initializing Engine...
-[2019.02.28-16.35.32:463][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.28-16.35.32:464][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.28-16.35.32:464][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.28-16.35.32:464][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.28-16.35.32:464][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.28-16.35.32:741][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.02.28-16.35.32:765][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.28-16.35.32:867][  0]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.28-16.35.32:897][  0]LogInit: FAudioDevice initialized.
-[2019.02.28-16.35.32:897][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.02.28-16.35.33:055][  0]LogDerivedDataCache: Saved boot cache 0.16s 71MB C:/Users/Wess9/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.28-16.35.33:064][  0]LogInit: Texture streaming: Enabled
-[2019.02.28-16.35.33:101][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.28-16.35.33:153][  0]LogInit: Transaction tracking system initialized
-[2019.02.28-16.35.33:189][  0]BlueprintLog: New page: Editor Load
-[2019.02.28-16.35.33:305][  0]LocalizationService: Localization service is disabled
-[2019.02.28-16.35.33:729][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.28-16.35.33:730][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.28-16.35.33:741][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.28-16.35.33:741][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.28-16.35.33:741][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.28-16.35.33:741][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.28-16.35.33:741][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.28-16.35.33:975][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Wess9/Documents/GitHub/WoldAssault/Content/' took 0.07s
-[2019.02.28-16.35.33:975][  0]SourceControl: Source control is disabled
-[2019.02.28-16.35.33:976][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.28-16.35.33:977][  0]LightingResults: New page: Lighting Build
-[2019.02.28-16.35.33:982][  0]MapCheck: New page: Map Check
-[2019.02.28-16.35.33:982][  0]LightingResults: New page: Lighting Build
-[2019.02.28-16.35.34:452][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.02.28-16.35.34:466][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.28-16.35.34:514][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.28-16.35.34:687][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 172,088ms to complete.
-[2019.02.28-16.35.34:687][  0]LogFileHelpers: Loading map 'Template_Default' took 0.711
-[2019.02.28-16.35.35:242][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-16.35.35:272][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-16.35.35:283][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-16.35.35:296][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-16.35.35:324][  0]LogCollectionManager: Loaded 0 collections in 0.004322 seconds
-[2019.02.28-16.35.35:417][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Wess9/Documents/GitHub/WoldAssault/Saved/Collections/' took 0.01s
-[2019.02.28-16.35.35:417][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Wess9/Documents/GitHub/WoldAssault/Content/Developers/Wess9/Collections/' took 0.01s
-[2019.02.28-16.35.35:417][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Wess9/Documents/GitHub/WoldAssault/Content/Collections/' took 0.01s
-[2019.02.28-16.35.35:417][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.02.28-16.35.35:429][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2572 classes and 603 folders.
-[2019.02.28-16.35.35:487][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.02.28-16.35.36:483][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.02.28-16.35.36:610][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.02.28-16.35.40:369][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.02.28-16.35.40:489][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.WoldAssault
-[2019.02.28-16.35.40:489][  0]LogTemp: CWD: D:\Program Files\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.02.28-16.35.40:489][  0]LogTemp: Initial Dir: D:\Program Files\UE_4.20
-[2019.02.28-16.35.40:489][  0]LogTemp: Env CWD: D:\Program Files\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.02.28-16.35.40:489][  0]LogTemp: BranchPath = DESKTOP-B5RE4LC/D/Program Files/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-B5RE4LC/D/Program Files/UE_4.20/Engine/Binaries
-[2019.02.28-16.35.40:489][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Wess9\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.02.28-16.35.40:489][  0]LogSlate: Took 0.009864 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.28-16.35.40:512][  0]LogSlate: Took 0.009966 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.28-16.35.40:578][  0]LogSlate: Took 0.010821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.28-16.35.41:053][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2019.02.28-16.35.41:677][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.02.28-16.35.41:677][  0]LogLoad: (Engine Initialization) Total time: 20.91 seconds
-[2019.02.28-16.35.41:677][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.28-16.35.41:898][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.28-16.35.42:478][  5]LogAssetRegistry: Asset discovery search completed in 13.3114 seconds
-[2019.02.28-16.35.42:481][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.02.28-16.35.42:482][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000117 seconds (updated 0 objects)
-[2019.02.28-16.35.46:557][ 17]LogSlate: Took 0.013741 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.28-16.36.57:523][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.28-16.36.57:573][382]LogSlate: Window 'Project Settings' being destroyed
-[2019.02.28-16.36.57:598][382]LogSlate: Window 'Project Settings' being destroyed
-[2019.02.28-16.37.00:065][610]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.28-16.37.21:826][208]LogTexture: Display: Building textures: FuseModel_Hair_Gloss (AutoDXT, 1024X1024)
-[2019.02.28-16.37.21:826][208]LogTexture: Display: Building textures: FuseModel_Hair_Opacity (AutoDXT, 1024X1024)
-[2019.02.28-16.37.21:826][208]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Anim/GreatSword/great_sword_walk.great_sword_walk
-[2019.02.28-16.37.21:826][208]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/Anim/GreatSword/great_sword_walk.great_sword_walk) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.02.28-16.37.21:840][208]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Anim/GreatSword/Great_Sword_Run__1_.Great_Sword_Run__1_
-[2019.02.28-16.37.21:840][208]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/Anim/GreatSword/Great_Sword_Run__1_.Great_Sword_Run__1_) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.02.28-16.37.22:532][208]LogTexture: Display: Building textures: FuseModel_Hair_Normal (BC5, 1024X1024)
-[2019.02.28-16.37.22:532][208]LogTexture: Display: Building textures: FuseModel_Hair_Diffuse (AutoDXT, 1024X1024)
-[2019.02.28-16.37.22:532][208]LogTexture: Display: Building textures: FuseModel_Body_Specular (AutoDXT, 2048X2048)
-[2019.02.28-16.37.22:532][208]LogTexture: Display: Building textures: FuseModel_Body_Opacity (AutoDXT, 2048X2048)
-[2019.02.28-16.37.22:532][208]LogTexture: Display: Building textures: FuseModel_Hair_Specular (AutoDXT, 1024X1024)
-[2019.02.28-16.37.23:319][208]LogTexture: Display: Building textures: FuseModel_Bottom_Diffuse (AutoDXT, 512X512)
-[2019.02.28-16.37.23:319][208]LogMaterial: Display: Missing cached shader map for material Hairmat, compiling. 
-[2019.02.28-16.37.23:686][208]LogTexture: Display: Building textures: FuseModel_Bottom_Gloss (AutoDXT, 512X512)
-[2019.02.28-16.37.23:686][208]LogSkeletalMesh: Building Skeletal Mesh Luck...
-[2019.02.28-16.37.23:870][208]LogShaderCompilers: Display: Shaders left to compile 87
-[2019.02.28-16.37.23:870][208]LogShaderCompilers: Display: Shaders left to compile 77
-[2019.02.28-16.37.23:870][208]LogShaderCompilers: Display: Shaders left to compile 67
-[2019.02.28-16.37.23:870][208]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Characters/Chara/Luck.Luck
-[2019.02.28-16.37.24:033][208]LogTexture: Display: Building textures: FuseModel_Body_Gloss (AutoDXT, 2048X2048)
-[2019.02.28-16.37.24:033][208]LogTexture: Display: Building textures: FuseModel_Bottom_Specular (AutoDXT, 512X512)
-[2019.02.28-16.37.24:083][208]LogTexture: Display: Building textures: FuseModel_Bottom_Normal (BC5, 512X512)
-[2019.02.28-16.37.24:206][208]LogTexture: Display: Building textures: FuseModel_Bottom_Opacity (AutoDXT, 512X512)
-[2019.02.28-16.37.24:246][208]LogMaterial: Display: Missing cached shader map for material Bottommat, compiling. 
-[2019.02.28-16.37.28:987][208]LogTexture: Display: Building textures: FuseModel_Body_Normal (BC5, 2048X2048)
-[2019.02.28-16.37.28:987][208]LogTexture: Display: Building textures: FuseModel_Mask_Specular (AutoDXT, 512X512)
-[2019.02.28-16.37.28:987][208]LogTexture: Display: Building textures: FuseModel_Body_Diffuse (AutoDXT, 2048X2048)
-[2019.02.28-16.37.28:987][208]LogTexture: Display: Building textures: FuseModel_Mask_Opacity (AutoDXT, 512X512)
-[2019.02.28-16.37.28:987][208]LogTexture: Display: Building textures: FuseModel_Mask_Normal (BC5, 512X512)
-[2019.02.28-16.37.28:987][208]LogTexture: Display: Building textures: FuseModel_Mask_Gloss (AutoDXT, 512X512)
-[2019.02.28-16.37.28:987][208]LogTexture: Display: Building textures: FuseModel_Mask_Diffuse (AutoDXT, 512X512)
-[2019.02.28-16.37.28:987][208]LogTexture: Display: Building textures: FuseModel_Top_Diffuse (AutoDXT, 512X512)
-[2019.02.28-16.37.28:988][208]LogTexture: Display: Building textures: FuseModel_Shoes_Specular (AutoDXT, 512X512)
-[2019.02.28-16.37.28:988][208]LogTexture: Display: Building textures: FuseModel_Shoes_Opacity (AutoDXT, 512X512)
-[2019.02.28-16.37.28:988][208]LogTexture: Display: Building textures: FuseModel_Shoes_Gloss (AutoDXT, 512X512)
-[2019.02.28-16.37.28:988][208]LogTexture: Display: Building textures: FuseModel_Shoes_Diffuse (AutoDXT, 512X512)
-[2019.02.28-16.37.28:988][208]LogTexture: Display: Building textures: FuseModel_Shoes_Normal (BC5, 512X512)
-[2019.02.28-16.37.28:988][208]LogTexture: Display: Building textures: FuseModel_Top_Specular (AutoDXT, 512X512)
-[2019.02.28-16.37.28:988][208]LogTexture: Display: Building textures: FuseModel_Top_Opacity (AutoDXT, 512X512)
-[2019.02.28-16.37.28:988][208]LogTexture: Display: Building textures: FuseModel_Top_Gloss (AutoDXT, 512X512)
-[2019.02.28-16.37.28:988][208]LogTexture: Display: Building textures: FuseModel_Top_Normal (BC5, 512X512)
-[2019.02.28-16.37.28:988][208]LogMaterial: Display: Missing cached shader map for material Bodymat, compiling. 
-[2019.02.28-16.37.29:092][208]LogMaterial: Display: Missing cached shader map for material Maskmat, compiling. 
-[2019.02.28-16.37.29:181][208]LogMaterial: Display: Missing cached shader map for material Topmat, compiling. 
-[2019.02.28-16.37.29:246][208]LogMaterial: Display: Missing cached shader map for material Shoesmat, compiling. 
-[2019.02.28-16.37.29:374][208]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Anim/GreatSword/great_sword_idle.great_sword_idle
-[2019.02.28-16.37.29:374][208]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/Anim/GreatSword/great_sword_idle.great_sword_idle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.02.28-16.37.29:443][208]LogSlate: Took 0.000422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.28-16.37.29:464][208]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Characters/Chara/BpLuck.BpLuck
-[2019.02.28-16.37.31:220][208]LogClass: Warning: Enum '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2019.02.28-16.37.31:257][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:257][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:257][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:257][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:257][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:257][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:257][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:257][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:257][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:257][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:257][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:272][208]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2019.02.28-16.37.31:272][208]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2019.02.28-16.37.31:272][208]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2019.02.28-16.37.31:272][208]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2019.02.28-16.37.31:272][208]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2019.02.28-16.37.31:272][208]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2019.02.28-16.37.31:272][208]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2019.02.28-16.37.31:305][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:306][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:306][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:306][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:306][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:306][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:306][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:306][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:306][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:306][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:306][208]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2019.02.28-16.37.31:321][208]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2019.02.28-16.37.31:321][208]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2019.02.28-16.37.31:321][208]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2019.02.28-16.37.31:321][208]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2019.02.28-16.37.31:321][208]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2019.02.28-16.37.31:321][208]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2019.02.28-16.37.31:321][208]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2019.02.28-16.37.31:522][208]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2019.02.28-16.37.34:283][208]LogSlate: Took 0.012657 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.02.28-16.37.36:414][288]LogShaderCompilers: Display: Shaders left to compile 411
-[2019.02.28-16.37.40:423][497]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
-[2019.02.28-16.37.43:922][712]LogShaderCompilers: Display: Shaders left to compile 401
-[2019.02.28-16.37.45:995][774]LogShaderCompilers: Display: Shaders left to compile 391
-[2019.02.28-16.37.57:695][176]LogShaderCompilers: Display: Shaders left to compile 381
-[2019.02.28-16.38.17:315][326]LogShaderCompilers: Display: Shaders left to compile 371
-[2019.02.28-16.38.21:504][478]LogShaderCompilers: Display: Shaders left to compile 361
-[2019.02.28-16.38.24:494][641]LogShaderCompilers: Display: Shaders left to compile 351
-[2019.02.28-16.38.46:575][400]LogShaderCompilers: Display: Shaders left to compile 341
-[2019.02.28-16.38.50:319][433]LogShaderCompilers: Display: Shaders left to compile 331
-[2019.02.28-16.38.50:791][442]LogShaderCompilers: Display: Shaders left to compile 321
-[2019.02.28-16.39.09:391][649]LogShaderCompilers: Display: Shaders left to compile 311
-[2019.02.28-16.39.09:582][653]LogShaderCompilers: Display: Shaders left to compile 301
-[2019.02.28-16.39.11:767][690]LogShaderCompilers: Display: Shaders left to compile 291
-[2019.02.28-16.39.22:106][847]LogShaderCompilers: Display: Shaders left to compile 281
-[2019.02.28-16.39.28:053][925]LogShaderCompilers: Display: Shaders left to compile 271
-[2019.02.28-16.39.29:626][946]LogShaderCompilers: Display: Shaders left to compile 261
-[2019.02.28-16.39.42:823][ 81]LogShaderCompilers: Display: Shaders left to compile 251
-[2019.02.28-16.39.43:417][ 95]LogShaderCompilers: Display: Shaders left to compile 241
-[2019.02.28-16.39.46:545][117]LogShaderCompilers: Display: Shaders left to compile 231
+[2019.02.28-16.44.06:747][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.28-16.44.06:747][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.28-16.44.06:756][  0]LogHAL: Display: Platform has ~ 8 GB [8523456512 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.28-16.44.06:756][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.28-16.44.06:756][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.28-16.44.06:756][  0]LogInit: Computer: DESKTOP-B5RE4LC
+[2019.02.28-16.44.06:756][  0]LogInit: User: Wess9
+[2019.02.28-16.44.06:756][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.02.28-16.44.06:756][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.28-16.44.06:757][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.02.28-16.44.06:757][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.28-16.44.06:757][  0]LogMemory: Process Physical Memory: 100.63 MB used, 100.64 MB peak
+[2019.02.28-16.44.06:757][  0]LogMemory: Process Virtual Memory: 84.35 MB used, 84.35 MB peak
+[2019.02.28-16.44.06:757][  0]LogMemory: Physical Memory: 4574.96 MB used,  3553.64 MB free, 8128.60 MB total
+[2019.02.28-16.44.06:757][  0]LogMemory: Virtual Memory: 4604.79 MB used,  3553.64 MB free, 134217728.00 MB total
+[2019.02.28-16.44.06:790][  0]LogInit: Using OS detected language (fr-FR).
+[2019.02.28-16.44.06:790][  0]LogInit: Using OS detected locale (fr-FR).
+[2019.02.28-16.44.06:791][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2019.02.28-16.44.06:794][  0]LogStreaming: Display: Took  0.004s to InitEngineTextLocalization.
+[2019.02.28-16.44.06:794][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.28-16.44.06:832][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.28-16.44.06:832][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.28-16.44.07:141][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.28-16.44.07:141][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.28-16.44.07:205][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.02.28-16.44.07:205][  0]LogD3D11RHI:       1977/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.28-16.44.07:208][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.28-16.44.07:208][  0]LogD3D11RHI:       0/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.28-16.44.07:208][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.28-16.44.07:214][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.28-16.44.07:214][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.28-16.44.07:214][  0]LogWindows: EnumDisplayDevices:
+[2019.02.28-16.44.07:215][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2019.02.28-16.44.07:215][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.02.28-16.44.07:216][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.02.28-16.44.07:216][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.02.28-16.44.07:216][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.28-16.44.07:216][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.02.28-16.44.07:216][  0]LogD3D11RHI:   Driver Version: 417.71 (internal:25.21.14.1771, unified:417.71)
+[2019.02.28-16.44.07:216][  0]LogD3D11RHI:      Driver Date: 1-11-2019
+[2019.02.28-16.44.07:216][  0]LogRHI: Texture pool is 1384 MB (70% of 1977 MB)
+[2019.02.28-16.44.07:259][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.28-16.44.07:287][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.28-16.44.07:331][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../Users/Wess9/Documents/GitHub/WoldAssault/Intermediate/Shaders/WorkingDirectory/8248/).
+[2019.02.28-16.44.07:331][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Wess9/AppData/Local/Temp/UnrealShaderWorkingDir/404078F74B154D5CE952C0A41283C3A7/'.
+[2019.02.28-16.44.08:151][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.28-16.44.08:171][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.28-16.44.08:198][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.28-16.44.08:223][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.28-16.44.08:248][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.28-16.44.08:274][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.28-16.44.08:302][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.28-16.44.08:318][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.28-16.44.08:327][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.28-16.44.08:428][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.28-16.44.08:495][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.28-16.44.08:495][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.28-16.44.08:527][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.28-16.44.08:527][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.28-16.44.08:544][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.28-16.44.08:563][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.28-16.44.08:578][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.28-16.44.08:594][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.28-16.44.08:604][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.28-16.44.08:604][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.28-16.44.08:691][  0]LogXGEController: Cleaning working directory: C:/Users/Wess9/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.28-16.44.08:691][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.28-16.44.08:692][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.28-16.44.08:692][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.28-16.44.10:049][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.28-16.44.10:129][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/Wess9/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.28-16.44.10:130][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Wess9/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.28-16.44.10:130][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.28-16.44.10:130][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.28-16.44.10:130][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/Wess9/Documents/GitHub/WoldAssault/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.28-16.44.10:130][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.28-16.44.10:151][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.28-16.44.10:172][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Wess9/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.28-16.44.10:172][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.28-16.44.10:172][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.28-16.44.10:205][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.28-16.44.10:207][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.28-16.44.10:208][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.28-16.44.10:359][  0]LogAssetRegistry: FAssetRegistry took 0.0457 seconds to start up
+[2019.02.28-16.44.10:896][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.28-16.44.10:976][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.28-16.44.10:982][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.28-16.44.10:982][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.28-16.44.10:982][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.28-16.44.10:982][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.28-16.44.11:150][  0]LogNetVersion: WoldAssault 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3604439811)
+[2019.02.28-16.44.11:834][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.121479 seconds
+[2019.02.28-16.44.11:840][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.28-16.44.11:840][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.02.28-16.44.11:840][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.28-16.44.13:068][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.28-16.44.13:082][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.28-16.44.13:231][  0]SourceControl: Source control is disabled
+[2019.02.28-16.44.13:231][  0]SourceControl: Source control is disabled
+[2019.02.28-16.44.13:232][  0]SourceControl: Source control is disabled
+[2019.02.28-16.44.13:233][  0]SourceControl: Source control is disabled
+[2019.02.28-16.44.13:407][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.28-16.44.13:553][  0]LogOcInput: OculusInput pre-init called
+[2019.02.28-16.44.13:628][  0]LogEngine: Initializing Engine...
+[2019.02.28-16.44.13:629][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.28-16.44.13:631][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.28-16.44.13:631][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.28-16.44.13:631][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.28-16.44.13:631][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.28-16.44.13:874][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.28-16.44.13:895][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.28-16.44.13:983][  0]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.28-16.44.14:008][  0]LogInit: FAudioDevice initialized.
+[2019.02.28-16.44.14:009][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.28-16.44.14:163][  0]LogDerivedDataCache: Saved boot cache 0.15s 71MB C:/Users/Wess9/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.28-16.44.14:195][  0]LogInit: Texture streaming: Enabled
+[2019.02.28-16.44.14:223][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.28-16.44.14:243][  0]LogInit: Transaction tracking system initialized
+[2019.02.28-16.44.14:277][  0]BlueprintLog: New page: Editor Load
+[2019.02.28-16.44.14:385][  0]LocalizationService: Localization service is disabled
+[2019.02.28-16.44.14:777][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.28-16.44.14:777][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.28-16.44.14:778][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.28-16.44.14:778][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.28-16.44.14:778][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.28-16.44.14:778][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.28-16.44.14:778][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.28-16.44.14:862][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Wess9/Documents/GitHub/WoldAssault/Content/' took 0.06s
+[2019.02.28-16.44.14:982][  0]SourceControl: Source control is disabled
+[2019.02.28-16.44.14:983][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.28-16.44.14:983][  0]LightingResults: New page: Lighting Build
+[2019.02.28-16.44.14:988][  0]MapCheck: New page: Map Check
+[2019.02.28-16.44.14:988][  0]LightingResults: New page: Lighting Build
+[2019.02.28-16.44.15:292][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.02.28-16.44.15:303][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.28-16.44.15:330][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.28-16.44.15:429][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 98,251ms to complete.
+[2019.02.28-16.44.15:429][  0]LogFileHelpers: Loading map 'Template_Default' took 0.446
+[2019.02.28-16.44.15:540][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-16.44.15:549][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-16.44.15:559][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-16.44.15:568][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.28-16.44.15:577][  0]LogCollectionManager: Loaded 0 collections in 0.003039 seconds
+[2019.02.28-16.44.15:620][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Wess9/Documents/GitHub/WoldAssault/Saved/Collections/' took 0.01s
+[2019.02.28-16.44.15:621][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Wess9/Documents/GitHub/WoldAssault/Content/Developers/Wess9/Collections/' took 0.01s
+[2019.02.28-16.44.15:621][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Wess9/Documents/GitHub/WoldAssault/Content/Collections/' took 0.01s
+[2019.02.28-16.44.15:621][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.28-16.44.15:631][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2572 classes and 603 folders.
+[2019.02.28-16.44.15:639][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.28-16.44.15:718][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.28-16.44.15:725][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.02.28-16.44.15:750][  0]LogSlate: Took 0.000399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.28-16.44.15:753][  0]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.28-16.44.15:764][  0]LogSlate: Took 0.000395 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.28-16.44.15:891][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.02.28-16.44.16:150][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.02.28-16.44.16:150][  0]LogLoad: (Engine Initialization) Total time: 13.10 seconds
+[2019.02.28-16.44.16:150][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.28-16.44.16:184][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.28-16.44.16:217][  0]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.28-16.44.16:425][  3]LogAssetRegistry: Asset discovery search completed in 6.1026 seconds
+[2019.02.28-16.44.16:428][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.28-16.44.16:428][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000085 seconds (updated 0 objects)
+[2019.02.28-16.44.17:755][  7]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.28-16.44.20:766][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.28-16.44.26:882][699]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Characters/Chara/BpLuck.BpLuck
+[2019.02.28-16.44.27:352][699]LogClass: Warning: Enum '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2019.02.28-16.44.27:366][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:366][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:366][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:366][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:366][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:366][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:366][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:366][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:366][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:366][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:366][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:369][699]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-16.44.27:369][699]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-16.44.27:369][699]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-16.44.27:369][699]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-16.44.27:369][699]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-16.44.27:369][699]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-16.44.27:369][699]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-16.44.27:374][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:374][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:374][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:374][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:374][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:374][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:374][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:375][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:375][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:375][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:375][699]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.02.28-16.44.27:377][699]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-16.44.27:377][699]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-16.44.27:377][699]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-16.44.27:378][699]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-16.44.27:378][699]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-16.44.27:378][699]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-16.44.27:378][699]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.02.28-16.44.27:401][699]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.02.28-16.44.28:237][699]LogSlate: Took 0.000376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
