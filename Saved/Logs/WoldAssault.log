@@ -1,4 +1,4 @@
-﻿Log file open, 02/28/19 21:49:30
+﻿Log file open, 03/01/19 19:45:01
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: WoldAssault
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 5.428079
+LogStats: Stats thread started at 0.208019
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.154s to configure plugins.
+LogStreaming: Display: Took  0.088s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -123,7 +123,7 @@ LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  
+LogInit: Command Line: 
 LogInit: Base Directory: D:/Epic/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -147,348 +147,386 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.018s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.02.28-20.49.33:036][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.28-20.49.33:036][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.28-20.49.33:078][  0]LogHAL: Display: Platform has ~ 8 GB [8469581824 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.02.28-20.49.33:078][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.02.28-20.49.33:078][  0]LogInit: Going up to parent DeviceProfile []
-[2019.02.28-20.49.33:095][  0]LogInit: Computer: LAPTOP-MQ8DKORB
-[2019.02.28-20.49.33:095][  0]LogInit: User: OmegaEternal
-[2019.02.28-20.49.33:095][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.02.28-20.49.33:095][  0]LogInit: High frequency timer resolution =2.437504 MHz
-[2019.02.28-20.49.33:095][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.02.28-20.49.33:095][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.28-20.49.33:095][  0]LogMemory: Process Physical Memory: 99.67 MB used, 99.67 MB peak
-[2019.02.28-20.49.33:095][  0]LogMemory: Process Virtual Memory: 90.72 MB used, 90.72 MB peak
-[2019.02.28-20.49.33:095][  0]LogMemory: Physical Memory: 4696.59 MB used,  3380.63 MB free, 8077.22 MB total
-[2019.02.28-20.49.33:095][  0]LogMemory: Virtual Memory: 4627.06 MB used,  3380.63 MB free, 134217728.00 MB total
-[2019.02.28-20.49.33:848][  0]LogInit: Using OS detected language (fr-FR).
-[2019.02.28-20.49.33:848][  0]LogInit: Using OS detected locale (fr-FR).
-[2019.02.28-20.49.33:849][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
-[2019.02.28-20.49.33:948][  0]LogStreaming: Display: Took  0.100s to InitEngineTextLocalization.
-[2019.02.28-20.49.33:948][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.28-20.49.34:255][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.28-20.49.34:255][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.28-20.49.38:179][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.28-20.49.38:179][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.28-20.49.38:346][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2019.02.28-20.49.38:346][  0]LogD3D11RHI:       1977/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.02.28-20.49.38:362][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.02.28-20.49.38:362][  0]LogD3D11RHI:       128/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.02.28-20.49.38:366][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.28-20.49.38:366][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.28-20.49.38:366][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.28-20.49.38:397][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.28-20.49.38:397][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
-[2019.02.28-20.49.38:397][  0]LogWindows: EnumDisplayDevices:
-[2019.02.28-20.49.38:397][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2019.02.28-20.49.38:398][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.02.28-20.49.38:398][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.02.28-20.49.38:398][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2019.02.28-20.49.38:398][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
-[2019.02.28-20.49.38:398][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2019.02.28-20.49.38:398][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
-[2019.02.28-20.49.38:398][  0]LogD3D11RHI:      Driver Date: 2-20-2019
-[2019.02.28-20.49.38:398][  0]LogRHI: Texture pool is 1384 MB (70% of 1977 MB)
-[2019.02.28-20.49.38:443][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.28-20.49.38:472][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.02.28-20.49.38:474][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../../Documents/Unreal Projects/WoldAssault/Intermediate/Shaders/WorkingDirectory/17016/).
-[2019.02.28-20.49.38:474][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Omega Eternal/AppData/Local/Temp/UnrealShaderWorkingDir/EEAFEE5849CB4B88FB6BF0864B54C07B/'.
-[2019.02.28-20.49.39:773][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.28-20.49.39:793][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.28-20.49.39:822][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.28-20.49.39:848][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.28-20.49.39:895][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.28-20.49.39:915][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.28-20.49.39:937][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.28-20.49.39:952][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.28-20.49.39:990][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-20.49.40:139][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.28-20.49.40:250][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.28-20.49.40:250][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.28-20.49.40:300][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.28-20.49.40:300][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.28-20.49.40:337][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.28-20.49.40:362][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.28-20.49.40:389][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.28-20.49.40:425][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.28-20.49.40:446][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.28-20.49.40:446][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.28-20.49.40:973][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.28-20.49.40:973][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.28-20.49.40:973][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.28-20.49.46:181][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.28-20.49.46:506][  0]LogDerivedDataCache: Loaded boot cache 0.32s 71MB C:/Users/Omega Eternal/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.28-20.49.46:507][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Omega Eternal/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.02.28-20.49.46:507][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/Unreal Projects/WoldAssault/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.28-20.49.46:507][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.28-20.49.46:507][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/Unreal Projects/WoldAssault/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.28-20.49.46:507][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.28-20.49.46:655][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.28-20.49.46:668][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Omega Eternal/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.28-20.49.46:668][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.28-20.49.46:668][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.28-20.49.46:690][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.28-20.49.46:692][  0]LogSlate: Using FreeType 2.6.0
-[2019.02.28-20.49.46:758][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.28-20.49.47:280][  0]LogAssetRegistry: FAssetRegistry took 0.0295 seconds to start up
-[2019.02.28-20.49.47:697][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.28-20.49.49:087][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.28-20.49.49:163][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.28-20.49.49:163][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.02.28-20.49.49:163][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.28-20.49.49:163][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.28-20.49.49:300][  0]LogNetVersion: WoldAssault 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3604439811)
-[2019.02.28-20.49.51:693][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.107116 seconds
-[2019.02.28-20.49.51:701][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.02.28-20.49.51:701][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.02.28-20.49.51:701][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.28-20.50.03:261][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.28-20.50.03:296][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.28-20.50.04:763][  0]SourceControl: Source control is disabled
-[2019.02.28-20.50.07:739][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.28-20.50.07:904][  0]LogOcInput: OculusInput pre-init called
-[2019.02.28-20.50.08:169][  0]LogEngine: Initializing Engine...
-[2019.02.28-20.50.08:170][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.28-20.50.08:172][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.28-20.50.08:172][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.28-20.50.08:172][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.28-20.50.08:172][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.28-20.50.08:977][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.02.28-20.50.09:032][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.28-20.50.09:046][  0]LogInit: XAudio2 using 'Haut-parleur/Ecouteurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.28-20.50.09:066][  0]LogInit: FAudioDevice initialized.
-[2019.02.28-20.50.09:066][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.02.28-20.50.09:444][  0]LogDerivedDataCache: Saved boot cache 0.38s 71MB C:/Users/Omega Eternal/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.28-20.50.09:449][  0]LogInit: Texture streaming: Enabled
-[2019.02.28-20.50.09:557][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.28-20.50.09:584][  0]LogInit: Transaction tracking system initialized
-[2019.02.28-20.50.09:694][  0]BlueprintLog: New page: Editor Load
-[2019.02.28-20.50.10:474][  0]LocalizationService: Localization service is disabled
-[2019.02.28-20.50.14:704][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.28-20.50.14:704][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.28-20.50.14:704][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.28-20.50.14:704][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.28-20.50.14:704][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.28-20.50.14:704][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.28-20.50.14:704][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.28-20.50.15:410][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/Unreal Projects/WoldAssault/Content/' took 0.03s
-[2019.02.28-20.50.17:011][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.28-20.50.17:047][  0]LightingResults: New page: Lighting Build
-[2019.02.28-20.50.17:050][  0]MapCheck: New page: Map Check
-[2019.02.28-20.50.17:050][  0]LightingResults: New page: Lighting Build
-[2019.02.28-20.50.17:167][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT'
-[2019.02.28-20.50.17:167][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT' while loading ../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset.
-[2019.02.28-20.50.17:167][  0]LoadErrors: Error: /Engine/EngineSky/BP_Sky_Sphere : Can't find file for asset. /Game/StarterContent/Blueprints/Assets/SunlightColorLUT
-[2019.02.28-20.50.17:409][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT'
-[2019.02.28-20.50.17:410][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT' while loading ../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset.
-[2019.02.28-20.50.17:410][  0]LoadErrors: Error: /Engine/EngineSky/BP_Sky_Sphere : Can't find file for asset. /Game/StarterContent/Blueprints/Assets/SunlightColorLUT
-[2019.02.28-20.50.17:412][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT'
-[2019.02.28-20.50.17:412][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT' while loading ../../../Engine/Content/Maps/Templates/Template_Default.umap.
-[2019.02.28-20.50.17:412][  0]LoadErrors: Error: /Engine/Maps/Templates/Template_Default : Can't find file for asset. /Game/StarterContent/Blueprints/Assets/SunlightColorLUT
-[2019.02.28-20.50.17:412][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT'
-[2019.02.28-20.50.17:412][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT' while loading ../../../Engine/Content/Maps/Templates/Template_Default.umap.
-[2019.02.28-20.50.17:412][  0]LoadErrors: Error: /Engine/Maps/Templates/Template_Default : Can't find file for asset. /Game/StarterContent/Blueprints/Assets/SunlightColorLUT
-[2019.02.28-20.50.17:412][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT'
-[2019.02.28-20.50.17:412][  0]LoadErrors: Failed to load /Game/StarterContent/Blueprints/Assets/SunlightColorLUT.SunlightColorLUT Referenced by Default__BP_Sky_Sphere_C
-[2019.02.28-20.50.17:412][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT' while loading ../../../Engine/Content/Maps/Templates/Template_Default.umap.
-[2019.02.28-20.50.17:412][  0]LoadErrors: Failed to load /Game/StarterContent/Blueprints/Assets/SunlightColorLUT.SunlightColorLUT Referenced by Default__BP_Sky_Sphere_C
-[2019.02.28-20.50.17:413][  0]LoadErrors: Error: /Engine/Maps/Templates/Template_Default : Can't find file for asset. /Game/StarterContent/Blueprints/Assets/SunlightColorLUT
-[2019.02.28-20.50.17:413][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT'
-[2019.02.28-20.50.17:413][  0]LoadErrors: Failed to load /Game/StarterContent/Blueprints/Assets/SunlightColorLUT.SunlightColorLUT Referenced by Default__BP_Sky_Sphere_C
-[2019.02.28-20.50.17:413][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT' while loading ../../../Engine/Content/Maps/Templates/Template_Default.umap.
-[2019.02.28-20.50.17:413][  0]LoadErrors: Failed to load /Game/StarterContent/Blueprints/Assets/SunlightColorLUT.SunlightColorLUT Referenced by Default__BP_Sky_Sphere_C
-[2019.02.28-20.50.17:413][  0]LoadErrors: Error: /Engine/Maps/Templates/Template_Default : Can't find file for asset. /Game/StarterContent/Blueprints/Assets/SunlightColorLUT
-[2019.02.28-20.50.17:413][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT'
-[2019.02.28-20.50.17:413][  0]LoadErrors: Failed to load /Game/StarterContent/Blueprints/Assets/SunlightColorLUT.SunlightColorLUT Referenced by Default__BP_Sky_Sphere_C
-[2019.02.28-20.50.17:413][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT' while loading ../../../Engine/Content/Maps/Templates/Template_Default.umap.
-[2019.02.28-20.50.17:413][  0]LoadErrors: Failed to load /Game/StarterContent/Blueprints/Assets/SunlightColorLUT.SunlightColorLUT Referenced by Default__BP_Sky_Sphere_C
-[2019.02.28-20.50.17:413][  0]LoadErrors: Error: /Engine/Maps/Templates/Template_Default : Can't find file for asset. /Game/StarterContent/Blueprints/Assets/SunlightColorLUT
-[2019.02.28-20.50.17:955][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.02.28-20.50.18:013][  0]LogScript: Warning: Accessed None trying to read property Horizon color curve
+[2019.03.01-18.45.01:647][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.01-18.45.01:647][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.01-18.45.01:660][  0]LogHAL: Display: Platform has ~ 8 GB [8469581824 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.01-18.45.01:660][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.01-18.45.01:660][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.01-18.45.01:661][  0]LogInit: Computer: LAPTOP-MQ8DKORB
+[2019.03.01-18.45.01:661][  0]LogInit: User: OmegaEternal
+[2019.03.01-18.45.01:661][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.01-18.45.01:661][  0]LogInit: High frequency timer resolution =2.437503 MHz
+[2019.03.01-18.45.01:661][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.03.01-18.45.01:661][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.01-18.45.01:661][  0]LogMemory: Process Physical Memory: 99.76 MB used, 99.76 MB peak
+[2019.03.01-18.45.01:661][  0]LogMemory: Process Virtual Memory: 90.58 MB used, 90.58 MB peak
+[2019.03.01-18.45.01:661][  0]LogMemory: Physical Memory: 5668.40 MB used,  2408.82 MB free, 8077.22 MB total
+[2019.03.01-18.45.01:661][  0]LogMemory: Virtual Memory: 4627.06 MB used,  2408.82 MB free, 134217728.00 MB total
+[2019.03.01-18.45.01:682][  0]LogInit: Using OS detected language (fr-FR).
+[2019.03.01-18.45.01:682][  0]LogInit: Using OS detected locale (fr-FR).
+[2019.03.01-18.45.01:683][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2019.03.01-18.45.01:684][  0]LogStreaming: Display: Took  0.002s to InitEngineTextLocalization.
+[2019.03.01-18.45.01:684][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.01-18.45.01:711][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.01-18.45.01:711][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.01-18.45.01:944][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.01-18.45.01:944][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.01-18.45.02:036][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.03.01-18.45.02:036][  0]LogD3D11RHI:       1977/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.01-18.45.02:046][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.03.01-18.45.02:046][  0]LogD3D11RHI:       128/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.01-18.45.02:048][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.01-18.45.02:048][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.01-18.45.02:048][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.01-18.45.02:078][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.01-18.45.02:078][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.03.01-18.45.02:078][  0]LogWindows: EnumDisplayDevices:
+[2019.03.01-18.45.02:078][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.03.01-18.45.02:079][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.03.01-18.45.02:079][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.03.01-18.45.02:079][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.03.01-18.45.02:079][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.03.01-18.45.02:079][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.03.01-18.45.02:079][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.03.01-18.45.02:079][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.03.01-18.45.02:079][  0]LogRHI: Texture pool is 1384 MB (70% of 1977 MB)
+[2019.03.01-18.45.02:122][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.01-18.45.02:139][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.01-18.45.02:140][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../../Documents/Unreal Projects/WoldAssault/Intermediate/Shaders/WorkingDirectory/2612/).
+[2019.03.01-18.45.02:141][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Omega Eternal/AppData/Local/Temp/UnrealShaderWorkingDir/40BDC19B44B4152E1A4FAD8D7E2446B4/'.
+[2019.03.01-18.45.02:486][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.01-18.45.02:500][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.01-18.45.02:515][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.01-18.45.02:529][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.01-18.45.02:544][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.01-18.45.02:559][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.01-18.45.02:573][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.01-18.45.02:587][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.01-18.45.02:593][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-18.45.02:686][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.01-18.45.02:748][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.01-18.45.02:748][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.01-18.45.02:772][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.01-18.45.02:772][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.01-18.45.02:788][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.01-18.45.02:802][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.01-18.45.02:817][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.01-18.45.02:833][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.01-18.45.02:843][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.01-18.45.02:843][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.01-18.45.02:893][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.01-18.45.02:893][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.01-18.45.02:893][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.01-18.45.03:658][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.01-18.45.03:722][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Omega Eternal/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.01-18.45.03:722][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Omega Eternal/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.01-18.45.03:723][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/Unreal Projects/WoldAssault/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.01-18.45.03:723][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.01-18.45.03:723][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/Unreal Projects/WoldAssault/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.01-18.45.03:723][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.01-18.45.03:737][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.01-18.45.03:750][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Omega Eternal/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.01-18.45.03:750][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.01-18.45.03:750][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.01-18.45.03:769][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.01-18.45.03:771][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.01-18.45.03:771][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.01-18.45.03:850][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2019.03.01-18.45.04:181][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.01-18.45.04:307][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.01-18.45.04:310][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.01-18.45.04:310][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.01-18.45.04:310][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.01-18.45.04:310][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.01-18.45.04:328][  0]LogNetVersion: WoldAssault 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3604439811)
+[2019.03.01-18.45.04:854][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.122421 seconds
+[2019.03.01-18.45.04:862][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.01-18.45.04:862][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.01-18.45.04:862][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.01-18.45.05:712][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.01-18.45.05:725][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.01-18.45.05:883][  0]SourceControl: Source control is disabled
+[2019.03.01-18.45.07:109][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.01-18.45.07:161][  0]LogOcInput: OculusInput pre-init called
+[2019.03.01-18.45.07:222][  0]LogEngine: Initializing Engine...
+[2019.03.01-18.45.07:223][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.01-18.45.07:224][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.01-18.45.07:224][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.01-18.45.07:224][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.01-18.45.07:224][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.01-18.45.07:447][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.01-18.45.07:457][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.01-18.45.07:499][  0]LogInit: XAudio2 using 'Haut-parleur/Ecouteurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.01-18.45.07:523][  0]LogInit: FAudioDevice initialized.
+[2019.03.01-18.45.07:523][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.01-18.45.07:646][  0]LogDerivedDataCache: Saved boot cache 0.12s 71MB C:/Users/Omega Eternal/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.01-18.45.07:650][  0]LogInit: Texture streaming: Enabled
+[2019.03.01-18.45.07:665][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.01-18.45.07:678][  0]LogInit: Transaction tracking system initialized
+[2019.03.01-18.45.07:695][  0]BlueprintLog: New page: Editor Load
+[2019.03.01-18.45.07:758][  0]LocalizationService: Localization service is disabled
+[2019.03.01-18.45.08:027][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.01-18.45.08:027][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.01-18.45.08:027][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.01-18.45.08:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.01-18.45.08:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.01-18.45.08:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.01-18.45.08:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.01-18.45.08:078][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/Unreal Projects/WoldAssault/Content/' took 0.02s
+[2019.03.01-18.45.08:139][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.01-18.45.08:140][  0]LightingResults: New page: Lighting Build
+[2019.03.01-18.45.08:143][  0]MapCheck: New page: Map Check
+[2019.03.01-18.45.08:143][  0]LightingResults: New page: Lighting Build
+[2019.03.01-18.45.08:193][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT'
+[2019.03.01-18.45.08:194][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT' while loading ../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset.
+[2019.03.01-18.45.08:194][  0]LoadErrors: Error: /Engine/EngineSky/BP_Sky_Sphere : Can't find file for asset. /Game/StarterContent/Blueprints/Assets/SunlightColorLUT
+[2019.03.01-18.45.08:205][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT'
+[2019.03.01-18.45.08:205][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT' while loading ../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset.
+[2019.03.01-18.45.08:205][  0]LoadErrors: Error: /Engine/EngineSky/BP_Sky_Sphere : Can't find file for asset. /Game/StarterContent/Blueprints/Assets/SunlightColorLUT
+[2019.03.01-18.45.08:207][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT'
+[2019.03.01-18.45.08:207][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT' while loading ../../../Engine/Content/Maps/Templates/Template_Default.umap.
+[2019.03.01-18.45.08:207][  0]LoadErrors: Error: /Engine/Maps/Templates/Template_Default : Can't find file for asset. /Game/StarterContent/Blueprints/Assets/SunlightColorLUT
+[2019.03.01-18.45.08:207][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT'
+[2019.03.01-18.45.08:207][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT' while loading ../../../Engine/Content/Maps/Templates/Template_Default.umap.
+[2019.03.01-18.45.08:207][  0]LoadErrors: Error: /Engine/Maps/Templates/Template_Default : Can't find file for asset. /Game/StarterContent/Blueprints/Assets/SunlightColorLUT
+[2019.03.01-18.45.08:207][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT'
+[2019.03.01-18.45.08:207][  0]LoadErrors: Failed to load /Game/StarterContent/Blueprints/Assets/SunlightColorLUT.SunlightColorLUT Referenced by Default__BP_Sky_Sphere_C
+[2019.03.01-18.45.08:208][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT' while loading ../../../Engine/Content/Maps/Templates/Template_Default.umap.
+[2019.03.01-18.45.08:208][  0]LoadErrors: Failed to load /Game/StarterContent/Blueprints/Assets/SunlightColorLUT.SunlightColorLUT Referenced by Default__BP_Sky_Sphere_C
+[2019.03.01-18.45.08:208][  0]LoadErrors: Error: /Engine/Maps/Templates/Template_Default : Can't find file for asset. /Game/StarterContent/Blueprints/Assets/SunlightColorLUT
+[2019.03.01-18.45.08:208][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT'
+[2019.03.01-18.45.08:208][  0]LoadErrors: Failed to load /Game/StarterContent/Blueprints/Assets/SunlightColorLUT.SunlightColorLUT Referenced by Default__BP_Sky_Sphere_C
+[2019.03.01-18.45.08:209][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT' while loading ../../../Engine/Content/Maps/Templates/Template_Default.umap.
+[2019.03.01-18.45.08:209][  0]LoadErrors: Failed to load /Game/StarterContent/Blueprints/Assets/SunlightColorLUT.SunlightColorLUT Referenced by Default__BP_Sky_Sphere_C
+[2019.03.01-18.45.08:209][  0]LoadErrors: Error: /Engine/Maps/Templates/Template_Default : Can't find file for asset. /Game/StarterContent/Blueprints/Assets/SunlightColorLUT
+[2019.03.01-18.45.08:209][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT'
+[2019.03.01-18.45.08:209][  0]LoadErrors: Failed to load /Game/StarterContent/Blueprints/Assets/SunlightColorLUT.SunlightColorLUT Referenced by Default__BP_Sky_Sphere_C
+[2019.03.01-18.45.08:209][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT' while loading ../../../Engine/Content/Maps/Templates/Template_Default.umap.
+[2019.03.01-18.45.08:209][  0]LoadErrors: Failed to load /Game/StarterContent/Blueprints/Assets/SunlightColorLUT.SunlightColorLUT Referenced by Default__BP_Sky_Sphere_C
+[2019.03.01-18.45.08:209][  0]LoadErrors: Error: /Engine/Maps/Templates/Template_Default : Can't find file for asset. /Game/StarterContent/Blueprints/Assets/SunlightColorLUT
+[2019.03.01-18.45.08:334][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.03.01-18.45.08:340][  0]LogScript: Warning: Accessed None trying to read property Horizon color curve
 	BP_Sky_Sphere_C /Temp/Untitled_1.Untitled_1:PersistentLevel.SkySphere
 	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:02EA
-[2019.02.28-20.50.18:013][  0]LogScript: Warning: Accessed None trying to read property Zenith color curve
+[2019.03.01-18.45.08:340][  0]LogScript: Warning: Accessed None trying to read property Zenith color curve
 	BP_Sky_Sphere_C /Temp/Untitled_1.Untitled_1:PersistentLevel.SkySphere
 	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0361
-[2019.02.28-20.50.18:013][  0]LogScript: Warning: Accessed None trying to read property Cloud color curve
+[2019.03.01-18.45.08:340][  0]LogScript: Warning: Accessed None trying to read property Cloud color curve
 	BP_Sky_Sphere_C /Temp/Untitled_1.Untitled_1:PersistentLevel.SkySphere
 	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:03D8
-[2019.02.28-20.50.18:014][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.28-20.50.18:050][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.28-20.50.18:105][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55,367ms to complete.
-[2019.02.28-20.50.18:105][  0]LogFileHelpers: Loading map 'Template_Default' took 1.094
-[2019.02.28-20.50.18:318][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-20.50.18:326][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-20.50.18:335][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-20.50.18:344][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-20.50.18:364][  0]LogCollectionManager: Loaded 0 collections in 0.001180 seconds
-[2019.02.28-20.50.18:406][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/Unreal Projects/WoldAssault/Saved/Collections/' took 0.01s
-[2019.02.28-20.50.18:406][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/Unreal Projects/WoldAssault/Content/Developers/OmegaEternal/Collections/' took 0.01s
-[2019.02.28-20.50.18:406][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/Unreal Projects/WoldAssault/Content/Collections/' took 0.01s
-[2019.02.28-20.50.18:406][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.02.28-20.50.18:416][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2572 classes and 603 folders.
-[2019.02.28-20.50.18:422][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.02.28-20.50.20:060][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.02.28-20.50.20:104][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.02.28-20.50.20:154][  0]LogSlate: Took 0.024259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.28-20.50.20:175][  0]LogSlate: Took 0.019388 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.28-20.50.20:210][  0]LogSlate: Took 0.028220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.28-20.50.20:456][  0]LogRenderer: Reallocating scene render targets to support 1152x576 Format 10 NumSamples 1 (Frame:1).
-[2019.02.28-20.50.20:680][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.02.28-20.50.20:680][  0]LogLoad: (Engine Initialization) Total time: 75.29 seconds
-[2019.02.28-20.50.20:680][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.28-20.50.20:732][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.28-20.50.20:735][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.28-20.50.21:103][  3]LogAssetRegistry: Asset discovery search completed in 33.8467 seconds
-[2019.02.28-20.50.21:105][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.02.28-20.50.21:105][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000101 seconds (updated 0 objects)
-[2019.02.28-20.50.24:531][ 19]LogSlate: Window 'Message Log' being destroyed
-[2019.02.28-20.50.24:534][ 19]LogSlate: Window 'Message Log' being destroyed
-[2019.02.28-20.50.24:878][ 36]LogSlate: Took 0.059531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.28-20.50.26:371][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.28-20.50.36:695][726]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
-[2019.02.28-20.50.36:695][726]SourceControl: Error: Content/Bot/AnimWolf.uasset
-[2019.02.28-20.50.36:695][726]SourceControl: Error: Content/Bot/Wolf.uasset
-[2019.02.28-20.50.36:695][726]SourceControl: Error: Content/Bot/Wolfbot.uasset
-[2019.02.28-20.50.36:695][726]SourceControl: Error: Use -f if you really want to add them.
-[2019.02.28-20.50.39:905][918]SourceControl: fatal: D:/Epic/Epic Games/UE_4.20/Engine/Content: 'D:/Epic/Epic Games/UE_4.20/Engine/Content' is outside repository
-[2019.02.28-20.50.43:944][918]LogSlate: Window 'Submit Files' being destroyed
-[2019.02.28-20.51.22:867][313]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.28-20.51.22:902][313]LogMetaData: Removing '/Game/Characters/Wolfbot.Wolfbot_C' ref from Metadata '/Game/Bot/Wolfbot.PackageMetaData'
-[2019.02.28-20.51.22:902][313]LogMetaData: Removing '/Game/Characters/Wolfbot.Wolfbot:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Bot/Wolfbot.PackageMetaData'
-[2019.02.28-20.51.22:902][313]LogMetaData: Removing '/Game/Characters/Wolfbot.SKEL_Wolfbot_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_0' ref from Metadata '/Game/Bot/Wolfbot.PackageMetaData'
-[2019.02.28-20.51.22:902][313]LogMetaData: Removing '/Game/Characters/Wolfbot.SKEL_Wolfbot_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_1' ref from Metadata '/Game/Bot/Wolfbot.PackageMetaData'
-[2019.02.28-20.51.22:902][313]LogMetaData: Removing '/Game/Characters/Wolfbot.SKEL_Wolfbot_C:UserConstructionScript' ref from Metadata '/Game/Bot/Wolfbot.PackageMetaData'
-[2019.02.28-20.51.22:902][313]LogMetaData: Removing '/Game/Characters/Wolfbot.SKEL_Wolfbot_C' ref from Metadata '/Game/Bot/Wolfbot.PackageMetaData'
-[2019.02.28-20.51.22:902][313]LogMetaData: Removing '/Game/Characters/Wolfbot.Wolfbot_C:UserConstructionScript' ref from Metadata '/Game/Bot/Wolfbot.PackageMetaData'
-[2019.02.28-20.51.22:943][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Wolfbot" FILE="../../../../../../Documents/Unreal Projects/WoldAssault/Content/Characters/Wolfbot.uasset" SILENT=true
-[2019.02.28-20.51.22:972][313]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/WoldAssault/Saved/WolfbotA5F7B31447F1B2F9AE7F1580A14DE009.tmp' to '../../../../../../Documents/Unreal Projects/WoldAssault/Content/Characters/Wolfbot.uasset'
-[2019.02.28-20.51.23:102][313]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
-[2019.02.28-20.51.23:102][313]SourceControl: Error: Content/Characters/Wolfbot.uasset
-[2019.02.28-20.51.23:102][313]SourceControl: Error: Use -f if you really want to add them.
-[2019.02.28-20.51.26:797][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Wolf" FILE="../../../../../../Documents/Unreal Projects/WoldAssault/Content/Characters/Wolf.uasset" SILENT=true
-[2019.02.28-20.51.26:812][480]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/WoldAssault/Saved/WolfA5C5EC97474C11C8142ED5902D028771.tmp' to '../../../../../../Documents/Unreal Projects/WoldAssault/Content/Characters/Wolf.uasset'
-[2019.02.28-20.51.26:925][480]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
-[2019.02.28-20.51.26:925][480]SourceControl: Error: Content/Characters/Wolf.uasset
-[2019.02.28-20.51.26:925][480]SourceControl: Error: Use -f if you really want to add them.
-[2019.02.28-20.51.27:303][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bot/AnimWolf" FILE="../../../../../../Documents/Unreal Projects/WoldAssault/Content/Bot/AnimWolf.uasset" SILENT=true
-[2019.02.28-20.51.27:340][480]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/WoldAssault/Saved/AnimWolf6F9578D14C8953D6A84DF2B19C2FD3E9.tmp' to '../../../../../../Documents/Unreal Projects/WoldAssault/Content/Bot/AnimWolf.uasset'
-[2019.02.28-20.51.30:389][626]LogMetaData: Removing '/Game/Characters/AnimWolf.AnimWolf:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Bot/AnimWolf.PackageMetaData'
-[2019.02.28-20.51.30:389][626]LogMetaData: Removing '/Game/Characters/AnimWolf.AnimWolf_C' ref from Metadata '/Game/Bot/AnimWolf.PackageMetaData'
-[2019.02.28-20.51.30:389][626]LogMetaData: Removing '/Game/Characters/AnimWolf.AnimWolf:AnimGraph.AnimGraphNode_StateMachine_0.BotMove.AnimStateEntryNode_0' ref from Metadata '/Game/Bot/AnimWolf.PackageMetaData'
-[2019.02.28-20.51.30:389][626]LogMetaData: Removing '/Game/Characters/AnimWolf.AnimWolf:AnimGraph.AnimGraphNode_StateMachine_0.BotMove.AnimStateNode_0.Movement.AnimGraphNode_StateResult_0' ref from Metadata '/Game/Bot/AnimWolf.PackageMetaData'
-[2019.02.28-20.51.30:389][626]LogMetaData: Removing '/Game/Characters/AnimWolf.SKEL_AnimWolf_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Bot/AnimWolf.PackageMetaData'
-[2019.02.28-20.51.30:389][626]LogMetaData: Removing '/Game/Characters/AnimWolf.SKEL_AnimWolf_C:Speed' ref from Metadata '/Game/Bot/AnimWolf.PackageMetaData'
-[2019.02.28-20.51.30:389][626]LogMetaData: Removing '/Game/Characters/AnimWolf.SKEL_AnimWolf_C' ref from Metadata '/Game/Bot/AnimWolf.PackageMetaData'
-[2019.02.28-20.51.30:389][626]LogMetaData: Removing '/Game/Characters/AnimWolf.AnimWolf_C:Speed' ref from Metadata '/Game/Bot/AnimWolf.PackageMetaData'
-[2019.02.28-20.51.30:389][626]LogMetaData: Removing '/Game/Characters/AnimWolf.AnimWolf_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Bot/AnimWolf.PackageMetaData'
-[2019.02.28-20.51.30:421][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/AnimWolf" FILE="../../../../../../Documents/Unreal Projects/WoldAssault/Content/Characters/AnimWolf.uasset" SILENT=true
-[2019.02.28-20.51.30:451][626]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/WoldAssault/Saved/AnimWolfA56942844E943E7FF44E0FB966BDE45C.tmp' to '../../../../../../Documents/Unreal Projects/WoldAssault/Content/Characters/AnimWolf.uasset'
-[2019.02.28-20.51.30:580][626]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
-[2019.02.28-20.51.30:580][626]SourceControl: Error: Content/Characters/AnimWolf.uasset
-[2019.02.28-20.51.30:580][626]SourceControl: Error: Use -f if you really want to add them.
-[2019.02.28-20.51.30:959][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Wolfbot" FILE="../../../../../../Documents/Unreal Projects/WoldAssault/Content/Characters/Wolfbot.uasset" SILENT=true
-[2019.02.28-20.51.30:988][626]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/WoldAssault/Saved/Wolfbot653EBC8C4295C9F7C27617B69802DB25.tmp' to '../../../../../../Documents/Unreal Projects/WoldAssault/Content/Characters/Wolfbot.uasset'
-[2019.02.28-20.53.06:131][ 36]SourceControl: fatal: D:/Epic/Epic Games/UE_4.20/Engine/Content: 'D:/Epic/Epic Games/UE_4.20/Engine/Content' is outside repository
-[2019.02.28-20.53.11:661][ 36]LogSlate: Window 'Submit Files' being destroyed
-[2019.02.28-20.53.17:470][340]LogMetaData: Removing '/Game/Bot/Wolfbot.Wolfbot_C' ref from Metadata '/Game/Characters/Wolfbot.PackageMetaData'
-[2019.02.28-20.53.17:470][340]LogMetaData: Removing '/Game/Bot/Wolfbot.Wolfbot_C:UserConstructionScript' ref from Metadata '/Game/Characters/Wolfbot.PackageMetaData'
-[2019.02.28-20.53.17:470][340]LogMetaData: Removing '/Game/Bot/Wolfbot.SKEL_Wolfbot_C' ref from Metadata '/Game/Characters/Wolfbot.PackageMetaData'
-[2019.02.28-20.53.17:470][340]LogMetaData: Removing '/Game/Bot/Wolfbot.SKEL_Wolfbot_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_0' ref from Metadata '/Game/Characters/Wolfbot.PackageMetaData'
-[2019.02.28-20.53.17:470][340]LogMetaData: Removing '/Game/Bot/Wolfbot.SKEL_Wolfbot_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_1' ref from Metadata '/Game/Characters/Wolfbot.PackageMetaData'
-[2019.02.28-20.53.17:470][340]LogMetaData: Removing '/Game/Bot/Wolfbot.SKEL_Wolfbot_C:UserConstructionScript' ref from Metadata '/Game/Characters/Wolfbot.PackageMetaData'
-[2019.02.28-20.53.17:470][340]LogMetaData: Removing '/Game/Bot/Wolfbot.Wolfbot:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Characters/Wolfbot.PackageMetaData'
-[2019.02.28-20.53.17:472][340]LogMetaData: Removing '/Game/Bot/AnimWolf.AnimWolf_C' ref from Metadata '/Game/Characters/AnimWolf.PackageMetaData'
-[2019.02.28-20.53.17:472][340]LogMetaData: Removing '/Game/Bot/AnimWolf.AnimWolf_C:Speed' ref from Metadata '/Game/Characters/AnimWolf.PackageMetaData'
-[2019.02.28-20.53.17:472][340]LogMetaData: Removing '/Game/Bot/AnimWolf.AnimWolf_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Characters/AnimWolf.PackageMetaData'
-[2019.02.28-20.53.17:472][340]LogMetaData: Removing '/Game/Bot/AnimWolf.SKEL_AnimWolf_C' ref from Metadata '/Game/Characters/AnimWolf.PackageMetaData'
-[2019.02.28-20.53.17:472][340]LogMetaData: Removing '/Game/Bot/AnimWolf.SKEL_AnimWolf_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Characters/AnimWolf.PackageMetaData'
-[2019.02.28-20.53.17:472][340]LogMetaData: Removing '/Game/Bot/AnimWolf.SKEL_AnimWolf_C:Speed' ref from Metadata '/Game/Characters/AnimWolf.PackageMetaData'
-[2019.02.28-20.53.17:472][340]LogMetaData: Removing '/Game/Bot/AnimWolf.AnimWolf:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Characters/AnimWolf.PackageMetaData'
-[2019.02.28-20.53.17:472][340]LogMetaData: Removing '/Game/Bot/AnimWolf.AnimWolf:AnimGraph.AnimGraphNode_StateMachine_0.BotMove.AnimStateEntryNode_0' ref from Metadata '/Game/Characters/AnimWolf.PackageMetaData'
-[2019.02.28-20.53.17:473][340]LogMetaData: Removing '/Game/Bot/AnimWolf.AnimWolf:AnimGraph.AnimGraphNode_StateMachine_0.BotMove.AnimStateNode_0.Movement.AnimGraphNode_StateResult_0' ref from Metadata '/Game/Characters/AnimWolf.PackageMetaData'
-[2019.02.28-20.53.17:510][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bot/Wolfbot" FILE="../../../../../../Documents/Unreal Projects/WoldAssault/Content/Bot/Wolfbot.uasset" SILENT=true
-[2019.02.28-20.53.17:538][340]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/WoldAssault/Saved/Wolfbot57972A894A65DE821DE61F98BA4E0EBD.tmp' to '../../../../../../Documents/Unreal Projects/WoldAssault/Content/Bot/Wolfbot.uasset'
-[2019.02.28-20.53.17:653][340]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
-[2019.02.28-20.53.17:653][340]SourceControl: Error: Content/Bot/Wolfbot.uasset
-[2019.02.28-20.53.17:653][340]SourceControl: Error: Use -f if you really want to add them.
-[2019.02.28-20.53.17:674][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bot/AnimWolf" FILE="../../../../../../Documents/Unreal Projects/WoldAssault/Content/Bot/AnimWolf.uasset" SILENT=true
-[2019.02.28-20.53.17:702][340]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/WoldAssault/Saved/AnimWolf8B4E9CDF479E7E46889DFFBAEF965D6B.tmp' to '../../../../../../Documents/Unreal Projects/WoldAssault/Content/Bot/AnimWolf.uasset'
-[2019.02.28-20.53.17:826][340]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
-[2019.02.28-20.53.17:826][340]SourceControl: Error: Content/Bot/AnimWolf.uasset
-[2019.02.28-20.53.17:826][340]SourceControl: Error: Use -f if you really want to add them.
-[2019.02.28-20.53.17:850][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bot/Wolf" FILE="../../../../../../Documents/Unreal Projects/WoldAssault/Content/Bot/Wolf.uasset" SILENT=true
-[2019.02.28-20.53.17:865][340]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/WoldAssault/Saved/Wolf840811A342747049FDD285AFD4B34732.tmp' to '../../../../../../Documents/Unreal Projects/WoldAssault/Content/Bot/Wolf.uasset'
-[2019.02.28-20.53.17:981][340]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
-[2019.02.28-20.53.17:981][340]SourceControl: Error: Content/Bot/Wolf.uasset
-[2019.02.28-20.53.17:981][340]SourceControl: Error: Use -f if you really want to add them.
-[2019.02.28-20.53.37:541][292]LogAIModule: Creating AISystem for world Lv1
-[2019.02.28-20.53.37:552][292]LogAssetEditorManager: Opening Asset editor for World /Game/Lv1.Lv1
-[2019.02.28-20.53.37:582][292]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal Projects/WoldAssault/Content/Lv1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.28-20.53.37:582][292]LightingResults: New page: Lighting Build
-[2019.02.28-20.53.37:583][292]LoadErrors: New page: Loading map: Lv1.umap
-[2019.02.28-20.53.37:584][292]MapCheck: New page: Map Check
-[2019.02.28-20.53.37:584][292]LightingResults: New page: Lighting Build
-[2019.02.28-20.53.37:679][292]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.28-20.53.37:732][292]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.28-20.53.37:805][292]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73,127ms to complete.
-[2019.02.28-20.53.37:806][292]LogFileHelpers: Loading map 'Lv1' took 0.225
-[2019.02.28-20.53.39:014][360]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.28-20.53.39:032][360]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.02.28-20.53.39:037][360]LogPlayLevel: [PlayLevel] Compiling Wolfbot before play...
-[2019.02.28-20.53.39:105][360]LogPlayLevel: [PlayLevel] Compiling AnimWolf before play...
-[2019.02.28-20.53.39:193][360]LogPlayLevel: PlayLevel: Blueprint regeneration took 161 ms (2 blueprints)
-[2019.02.28-20.53.39:272][360]PIE: New page: PIE session: Lv1 (28 févr. 2019 22:53:39)
-[2019.02.28-20.53.39:272][360]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Lv1
-[2019.02.28-20.53.39:286][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014344s)
-[2019.02.28-20.53.39:287][360]LogAIModule: Creating AISystem for world Lv1
-[2019.02.28-20.53.39:287][360]LogPlayLevel: PIE: World Init took: (0.000674s)
-[2019.02.28-20.53.39:287][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lv1.Lv1 to /Game/UEDPIE_0_Lv1.Lv1 (0.015200s)
-[2019.02.28-20.53.39:316][360]LogInit: XAudio2 using 'Haut-parleur/Ecouteurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.28-20.53.39:332][360]LogInit: FAudioDevice initialized.
-[2019.02.28-20.53.40:270][360]LogLoad: Game class is 'Fps_C'
-[2019.02.28-20.53.40:274][360]LogWorld: Bringing World /Game/UEDPIE_0_Lv1.Lv1 up for play (max tick rate 60) at 2019.02.28-21.53.40
-[2019.02.28-20.53.40:274][360]LogWorld: Bringing up level for play took: 0.002956
-[2019.02.28-20.53.40:312][360]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
-[2019.02.28-20.53.40:312][360]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2019.02.28-20.53.40:312][360]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2019.02.28-20.53.40:312][360]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2019.02.28-20.53.40:327][360]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2019.02.28-20.53.40:327][360]PIE: Play in editor start time for /Game/UEDPIE_0_Lv1 1,315
-[2019.02.28-20.54.20:960][787]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-20.54.20:993][787]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.28-20.54.21:022][787]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-20.54.21:067][789]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2019.02.28-20.54.22:934][900]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.28-20.54.23:041][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lv1" FILE="../../../../../../Documents/Unreal Projects/WoldAssault/Content/Lv1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.02.28-20.54.23:236][900]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/WoldAssault/Saved/Lv1DE84349B46844418F95C818CBF94A892.tmp' to '../../../../../../Documents/Unreal Projects/WoldAssault/Content/Lv1.umap'
-[2019.02.28-20.54.27:052][126]SourceControl: fatal: D:/Epic/Epic Games/UE_4.20/Engine/Content: 'D:/Epic/Epic Games/UE_4.20/Engine/Content' is outside repository
-[2019.02.28-20.54.30:694][126]LogSlate: Window 'Submit Files' being destroyed
-[2019.02.28-20.54.35:567][126]LogSourceControl: commit successful: [master cb0c3bd] Jsp
-[2019.02.28-20.54.35:788][126]SourceControl: [master cb0c3bd] Jsp
-[2019.02.28-20.54.35:788][126]SourceControl:  4 files changed, 0 insertions(+), 0 deletions(-)
-[2019.02.28-20.54.35:788][126]SourceControl:  rewrite Content/Characters/Chara/BpLuck.uasset (79%)
-[2019.02.28-20.54.35:788][126]SourceControl:  rewrite Content/PolyArtWolf/Meshes/Wolf.uasset (94%)
-[2019.02.28-20.54.35:791][126]SourceControl: Commited [master cb0c3bd] Jsp.
+[2019.03.01-18.45.08:340][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.01-18.45.08:367][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.01-18.45.08:421][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53,703ms to complete.
+[2019.03.01-18.45.08:421][  0]LogFileHelpers: Loading map 'Template_Default' took 0.282
+[2019.03.01-18.45.08:566][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-18.45.08:576][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-18.45.08:585][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-18.45.08:595][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-18.45.08:605][  0]LogCollectionManager: Loaded 0 collections in 0.001045 seconds
+[2019.03.01-18.45.08:647][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/Unreal Projects/WoldAssault/Saved/Collections/' took 0.01s
+[2019.03.01-18.45.08:647][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/Unreal Projects/WoldAssault/Content/Developers/OmegaEternal/Collections/' took 0.01s
+[2019.03.01-18.45.08:647][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/Unreal Projects/WoldAssault/Content/Collections/' took 0.01s
+[2019.03.01-18.45.08:647][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.01-18.45.08:657][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2572 classes and 603 folders.
+[2019.03.01-18.45.08:663][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.01-18.45.09:617][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.01-18.45.09:639][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.03.01-18.45.09:657][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.01-18.45.09:662][  0]LogSlate: Took 0.001730 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.01-18.45.10:136][  0]LogSlate: Took 0.469244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.01-18.45.10:279][  0]LogRenderer: Reallocating scene render targets to support 1152x576 Format 10 NumSamples 1 (Frame:1).
+[2019.03.01-18.45.10:416][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.01-18.45.10:416][  0]LogLoad: (Engine Initialization) Total time: 10.41 seconds
+[2019.03.01-18.45.10:416][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.01-18.45.10:467][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.01-18.45.10:471][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-18.45.10:517][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.01-18.45.10:687][  3]LogAssetRegistry: Asset discovery search completed in 6.8591 seconds
+[2019.03.01-18.45.10:689][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.01-18.45.10:689][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000087 seconds (updated 0 objects)
+[2019.03.01-18.45.27:379][355]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.01-18.45.28:441][355]LogAIModule: Creating AISystem for world Lv1
+[2019.03.01-18.45.28:454][355]LogAssetEditorManager: Opening Asset editor for World /Game/Lv1.Lv1
+[2019.03.01-18.45.28:486][355]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal Projects/WoldAssault/Content/Lv1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.01-18.45.28:486][355]LightingResults: New page: Lighting Build
+[2019.03.01-18.45.28:487][355]LoadErrors: New page: Loading map: Lv1.umap
+[2019.03.01-18.45.28:487][355]MapCheck: New page: Map Check
+[2019.03.01-18.45.28:487][355]LightingResults: New page: Lighting Build
+[2019.03.01-18.45.28:557][355]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.01-18.45.28:614][355]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.01-18.45.28:700][355]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 85,502ms to complete.
+[2019.03.01-18.45.28:702][355]LogFileHelpers: Loading map 'Lv1' took 0.217
+[2019.03.01-18.45.30:907][369]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor1)
+[2019.03.01-18.45.35:177][600]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky_BP)
+[2019.03.01-18.45.43:329][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-18.52.20:941][398]LogSlate: Window 'Message Log' being destroyed
+[2019.03.01-18.52.20:944][398]LogSlate: Window 'Message Log' being destroyed
+[2019.03.01-18.52.53:592][631]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Characters/Anim/GreatAnim.GreatAnim
+[2019.03.01-18.52.53:708][631]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.03.01-18.52.54:400][631]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.01-18.52.54:422][631]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2019.03.01-18.52.54:928][631]LogClass: Warning: Enum '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2019.03.01-18.52.54:938][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:938][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:938][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:938][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:939][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:939][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:939][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:939][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:939][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:939][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:939][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:941][631]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.03.01-18.52.54:941][631]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.03.01-18.52.54:941][631]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.03.01-18.52.54:941][631]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.03.01-18.52.54:941][631]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.03.01-18.52.54:941][631]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.03.01-18.52.54:941][631]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/ExampleContent/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.03.01-18.52.54:943][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:943][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:943][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:943][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:943][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:943][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:943][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:943][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:943][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:943][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:943][631]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2019.03.01-18.52.54:945][631]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.03.01-18.52.54:946][631]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.03.01-18.52.54:946][631]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.03.01-18.52.54:946][631]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.03.01-18.52.54:946][631]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.03.01-18.52.54:946][631]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.03.01-18.52.54:946][631]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/AdvancedMagicFX13/DemoRoomData/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2019.03.01-18.52.54:964][631]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.03.01-18.52.55:903][631]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.01-18.52.56:662][631]LogSlate: Took 0.010293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.01-18.52.56:738][631]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2019.03.01-18.52.56:913][631]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.03.01-18.52.56:985][632]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.01-18.53.14:708][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-18.53.14:794][642]LogSlate: Window 'GreatAnim' being destroyed
+[2019.03.01-18.53.14:800][642]LogSlate: Window 'GreatAnim' being destroyed
+[2019.03.01-18.53.16:641][714]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/Characters/Anim/GreatSword.GreatSword
+[2019.03.01-18.53.16:700][714]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.01-18.53.16:792][714]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.01-18.53.17:368][714]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.03.01-18.53.21:320][932]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2019.03.01-18.53.22:394][995]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.03.01-18.53.23:693][ 69]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2019.03.01-18.53.44:445][370]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.03.01-18.54.18:866][260]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-18.55.52:763][440]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Lv1' took 0.067
+[2019.03.01-18.55.52:818][440]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Anim/GreatSword] ([1] browsable assets)...
+[2019.03.01-18.55.52:856][440]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/Characters/Anim/GreatSword.GreatSword]
+[2019.03.01-18.55.52:856][440]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Anim/GreatSword]
+[2019.03.01-18.55.53:004][440]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/WoldAssault/Saved/GreatSword_Auto1867B5BFA49067E55F627A0899F379F6A.tmp' to '../../../../../../Documents/Unreal Projects/WoldAssault/Saved/Autosaves/Game/Characters/Anim/GreatSword_Auto1.uasset'
+[2019.03.01-18.55.53:020][440]LogFileHelpers: Auto-saving content packages took 0.255
+[2019.03.01-18.57.18:449][ 90]LogSlate: Window 'GreatSword*' being destroyed
+[2019.03.01-18.57.23:074][341]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.01-18.57.35:848][341]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.01-18.57.49:779][341]SourceControl: Unstaged changes after reset:
+[2019.03.01-18.57.49:779][341]SourceControl: M	.gitignore
+[2019.03.01-18.57.49:779][341]SourceControl: M	Content/Characters/Chara/BpLuck.uasset
+[2019.03.01-18.57.49:779][341]SourceControl: M	Content/Lv1.umap
+[2019.03.01-18.57.49:779][341]SourceControl: M	Intermediate/CachedAssetRegistry.bin
+[2019.03.01-18.57.49:779][341]SourceControl: M	Intermediate/Config/CoalescedSourceConfigs/Crypto.ini
+[2019.03.01-18.57.49:779][341]SourceControl: M	Saved/AutoScreenshot.png
+[2019.03.01-18.57.49:779][341]SourceControl: M	Saved/Autosaves/Game/Characters/Chara/Luck_Skeleton_Auto1.uasset
+[2019.03.01-18.57.49:779][341]SourceControl: M	Saved/Autosaves/PackageRestoreData.json
+[2019.03.01-18.57.49:779][341]SourceControl: M	Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2019.03.01-18.57.49:779][341]SourceControl: M	Saved/Config/Windows/Engine.ini
+[2019.03.01-18.57.49:779][341]SourceControl: D	Saved/Logs/WoldAssault-backup-2019.02.24-19.55.16.log
+[2019.03.01-18.57.49:779][341]SourceControl: D	Saved/Logs/WoldAssault-backup-2019.02.28-17.35.23.log
+[2019.03.01-18.57.49:779][341]SourceControl: M	Saved/Logs/WoldAssault.log
+[2019.03.01-18.57.49:779][341]SourceControl: Unstaged changes after reset:
+[2019.03.01-18.57.49:779][341]SourceControl: M	.gitignore
+[2019.03.01-18.57.49:779][341]SourceControl: M	Content/Characters/Chara/BpLuck.uasset
+[2019.03.01-18.57.49:779][341]SourceControl: M	Content/Lv1.umap
+[2019.03.01-18.57.49:779][341]SourceControl: M	Intermediate/CachedAssetRegistry.bin
+[2019.03.01-18.57.49:779][341]SourceControl: M	Intermediate/Config/CoalescedSourceConfigs/Crypto.ini
+[2019.03.01-18.57.49:779][341]SourceControl: M	Saved/AutoScreenshot.png
+[2019.03.01-18.57.49:779][341]SourceControl: M	Saved/Autosaves/Game/Characters/Chara/Luck_Skeleton_Auto1.uasset
+[2019.03.01-18.57.49:779][341]SourceControl: M	Saved/Autosaves/PackageRestoreData.json
+[2019.03.01-18.57.49:779][341]SourceControl: M	Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2019.03.01-18.57.49:779][341]SourceControl: M	Saved/Config/Windows/Engine.ini
+[2019.03.01-18.57.49:779][341]SourceControl: D	Saved/Logs/WoldAssault-backup-2019.02.24-19.55.16.log
+[2019.03.01-18.57.49:779][341]SourceControl: D	Saved/Logs/WoldAssault-backup-2019.02.28-17.35.23.log
+[2019.03.01-18.57.49:779][341]SourceControl: M	Saved/Logs/WoldAssault.log
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/draw_a_great_sword_1.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/draw_a_great_sword_2.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_180_turn.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_180_turn__2_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_attack.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_blocking.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_blocking__2_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_blocking__3_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_casting.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_crouching.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_crouching__2_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_crouching__3_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_crouching__4_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_crouching__5_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_crouching__6_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_high_spin_attack.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_idle.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_idle__2_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_idle__3_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_idle__4_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_idle__5_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_impact.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_impact__2_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_impact__3_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_impact__4_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_impact__5_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_jump.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_jump__2_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_jump_attack.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_kick.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_kick__2_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_power_up.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_run.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_run__2_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_slash.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_slash__2_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_slash__3_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_slash__4_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_slash__5_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_slide_attack.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_strafe.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_strafe__2_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_strafe__3_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_strafe__4_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_turn.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_turn__2_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_walk__2_.uasset'
+[2019.03.01-18.57.50:312][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/spell_cast.uasset'
+[2019.03.01-18.57.50:313][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/two_handed_sword_death.uasset'
+[2019.03.01-18.57.50:313][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/two_handed_sword_death__2_.uasset'
+[2019.03.01-18.57.50:313][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/Great_Sword_Run__1_.uasset'
+[2019.03.01-18.57.50:313][341]SourceControl: rm 'Content/Characters/Anim/GreatSword/great_sword_walk.uasset'
